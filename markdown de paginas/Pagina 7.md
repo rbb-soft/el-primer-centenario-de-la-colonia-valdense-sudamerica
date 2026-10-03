@@ -16,7 +16,7 @@
 
 ### Notas de transcripción
 
-Fuente: `imagenes del libro/Pagina 7.jpeg`
+Fuente: `imagenes del libro/pagina 07.jpeg`
 
 - El título «Introducción» está compuesto en redonda negrita y centrado; el cuerpo en cursiva. Ambos rasgos se reflejan en el markdown.
 - **«No podía, faltar»** y **«hace algunos años, una Comisión»**: las comas están en el original.

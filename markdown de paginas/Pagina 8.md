@@ -16,7 +16,7 @@
 
 ### Notas de transcripción
 
-Fuente: `imagenes del libro/Paqina 8.jpeg` (el nombre del archivo tiene un error tipográfico: «Paqina»)
+Fuente: `imagenes del libro/pagina 08.jpeg`
 
 - La página arranca a mitad de frase: es la continuación de «…durante el mes de abril de 1956 tuvo» de la página 7.
 - **«1º»**: el ordinal va con una «o» elevada en el original.

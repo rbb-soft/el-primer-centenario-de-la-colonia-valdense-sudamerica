@@ -14,7 +14,7 @@
 
 ### Notas de transcripción
 
-Fuente: `imagenes del libro/Pagina 9.jpeg`
+Fuente: `imagenes del libro/pagina 09.jpeg`
 
 - La página arranca con «ción.», que completa «disposi-» de la página 8.
 - **«Negrin»** sin tilde en sus dos apariciones; **«fué»** con tilde, grafía arcaica del original.

@@ -5,6 +5,15 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.6.1] — 2026-10-03
+
+### Changed
+- Renombradas cuatro fotografías fuente para normalizar nombres: `Pagina 7.jpeg`, `Paqina 8.jpeg`, `Pagina 9.jpeg` y `Pagina 10.jpeg` → `pagina 07.jpeg`, `pagina 08.jpeg`, `pagina 09.jpeg` y `pagina 10.jpeg`. Se corrige la errata «Paqina», se unifica minúscula y se aplica padding con cero a los números de un dígito.
+- `PROPOSITO.md`: árbol de directorios sincronizado con los nombres reales; se elimina la fila de la errata «Paqina» y la nota sobre el nombre en mayúscula, ya sin vigencia.
+- `Pagina 7.md`, `Pagina 8.md`, `Pagina 9.md` y `Pagina 10.md`: actualizada la línea «Fuente:» al nuevo nombre del JPEG. En `Pagina 8.md` se retira la nota sobre el error tipográfico del nombre, ya corregido.
+
+---
+
 ## [v0.6.0] — 2026-10-03
 
 ### Added

@@ -10,7 +10,7 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.6.0
+v0.6.1
 
 ## Estado
 

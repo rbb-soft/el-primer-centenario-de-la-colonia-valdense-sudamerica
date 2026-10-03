@@ -10,7 +10,7 @@ Emilio H. Ganz.
 
 ### Notas de transcripción
 
-Fuente: `imagenes del libro/Pagina 10.jpeg`
+Fuente: `imagenes del libro/pagina 10.jpeg`
 
 - La página arranca con «cerán», que completa «Cono-» de la página 9.
 - Espaciado irregular en el primer párrafo, reproducido tal como está impreso: sin espacio tras «—montañeses», con espacio antes de la raya de «Piamonte —» y sin espacio antes de la de «Piémont"—».

@@ -15,16 +15,16 @@ Libro/                                  ← raíz de este repositorio (nombre ab
 ├── imagenes del libro/                  ← páginas de texto y láminas reservadas
 │   ├── imagen entre 48 y 49 1.jpeg       ← lámina: excluir de la transcripción
 │   ├── imagen entre 48 y 49 2.jpeg       ← lámina: excluir de la transcripción
-│   ├── Pagina 7.jpeg                    ← nombre en mayúscula
-│   ├── Paqina 8.jpeg                    ← error tipográfico del nombre
-│   ├── Pagina 9.jpeg
-│   ├── Pagina 10.jpeg
+│   ├── pagina 07.jpeg                   ← nombre en minúscula con cero a la izquierda
+│   ├── pagina 08.jpeg
+│   ├── pagina 09.jpeg
+│   ├── pagina 10.jpeg
 │   └── pagina 11.jpeg … pagina 61.jpeg  ← nombre en minúscula
 └── markdown de paginas/                 ← destino: una transcripción por página de texto
     └── Pagina 7.md … Pagina 61.md        ← siempre «Pagina N.md», con mayúscula
 ```
 
-Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG, para no arrastrar el error «Paqina» ni la alternancia de mayúsculas. El nombre real del JPEG queda registrado en las notas de cada archivo.
+Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG. Los nombres de los JPEG se conservan tal como están en el archivo, con su alternancia histórica de mayúsculas, guiones y padding (`Pagina N.md` ↔ `pagina NN.jpeg`, dos dígitos a partir de la 07); el nombre real del JPEG queda registrado en las notas de cada archivo.
 
 Estado actual: páginas **7 a 61** transcritas (55 páginas). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», que continúa con «empezando con el segundo» en la 49, saltando las dos láminas reservadas. La sección II termina en la 53, donde abre la III, «Planeando una segunda colonia Valdense»; la 56 abre la IV, «Intervención del "Superior Gobierno"»; la 61 abre la V, «Cosmopolita», con el rótulo «Los primeros pobladores».
 
@@ -43,7 +43,7 @@ Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 
 - No aplicar OCR ni transcribir leyendas, títulos o contenido de estas láminas. No crear markdown, archivos vacíos ni páginas sustitutas para ellas.
 - No contarlas como páginas de texto pendientes, no asignarles números de página y no alterar la numeración existente. La continuidad del relato se coteja directamente de la 48 a la 49.
 - Antes de cada nueva tanda, clasificar las fotografías y consultar este registro. Incorporar aquí las futuras láminas reservadas con su nombre real y ubicación.
-- En cualquier procesamiento automático, seleccionar solo nombres de página completos con `^(Pagina|Paqina) [0-9]+\.jpeg$` (sin distinguir mayúsculas) y excluir expresamente los archivos de este registro. Nunca extraer un número suelto del nombre de una lámina: «48» y «49» indican su ubicación, no páginas a transcribir. Toda imagen que no cumpla el patrón o sea una lámina requiere clasificación antes de procesarse.
+- En cualquier procesamiento automático, seleccionar solo nombres de página completos con `^pagina [0-9]{2}\.jpeg$` (minúscula, espacio, dos dígitos con cero a la izquierda para las páginas 7 a 9) y excluir expresamente los archivos de este registro. Nunca extraer un número suelto del nombre de una lámina: «48» y «49» indican su ubicación, no páginas a transcribir. Toda imagen que no cumpla el patrón o sea una lámina requiere clasificación antes de procesarse.
 
 ## Bloques y tipografía del libro
 
