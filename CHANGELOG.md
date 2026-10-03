@@ -5,6 +5,13 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.2.0] — 2026-10-03
+
+### Added
+- Tres nuevas fotografías fuente en `imagenes del libro/`: `pagina 17.jpeg`, `pagina 18.jpeg`, `pagina 19.jpeg`. Pendientes de transcripción.
+
+---
+
 ## [v0.1.0] — 2026-10-03
 
 ### Added
