@@ -5,6 +5,22 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.5.0] — 2026-10-03
+
+### Added
+- 23 fotografías fuente, de `pagina 26.jpeg` a `pagina 48.jpeg`, y sus 23 transcripciones independientes con notas editoriales.
+- Cierre de «Segunda emigración», sección IV «Tercera emigración» y sección V «Los Valdenses en Florida» del Capítulo I.
+- Apertura del Capítulo II «Colonización», sección I «Fundación de la primera colonia (1858)» y sección II «Colonia Valdense (1858 - 1958)», hasta el ensanche de la colonia.
+- Notas al pie (8) a (13) del Capítulo I y (1) a (13) del Capítulo II; se conserva el reinicio de numeración.
+- Registro de grafías, erratas y signos particulares del impreso, incluidos «relatando de salida», «fraticidas», «llamada Majestas», «traslados», «precipio», «nuestro ranchos», «cononia» y los tres trazos de apertura en las páginas 31 y 43.
+
+### Changed
+- `README.md` y `PROPOSITO.md`: avance actualizado a 42 páginas transcritas (7 a 48), con las 26 a 48 cotejadas contra las fotografías y pendientes de verificación en papel.
+- Nota de continuidad de la página 25: «em-» / «barcado» forma «embarcado»; se retira del propósito la conjetura anterior «embarcarse».
+- Continuidades de palabras y citas entre las nuevas páginas documentadas; queda abierta la oración final de la 48 para continuar en la 49.
+
+---
+
 ## [v0.4.0] — 2026-10-03
 
 ### Added

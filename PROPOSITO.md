@@ -15,14 +15,16 @@ Libro/
 │   ├── Paqina 8.jpeg                     ← error tipográfico y minúscula
 │   ├── Pagina 9.jpeg
 │   ├── Pagina 10.jpeg
-│   └── pagina 11.jpeg … pagina 25.jpeg   ← nombre en minúscula
+│   └── pagina 11.jpeg … pagina 48.jpeg   ← nombre en minúscula
 └── markdown de paginas/                  ← destino: una transcripción por página
-    └── Pagina 7.md … Pagina 25.md        ← siempre «Pagina N.md», con mayúscula
+    └── Pagina 7.md … Pagina 48.md        ← siempre «Pagina N.md», con mayúscula
 ```
 
 Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG, para no arrastrar el error «Paqina» ni la alternancia de mayúsculas. El nombre real del JPEG queda registrado en las notas de cada archivo.
 
-Estado actual: páginas **7 a 25** transcritas. La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"») con su sección I, «El problema de la emigración», que llega hasta el final de la 20; allí mismo abre la sección II, «Primera emigración», que continúa en las 21, 22 y 23. La 24 abre la sección III, «Segunda emigración» (junio de 1857, «El nuevo contingente»), con la lista de las diez familias que zarpan de Génova; la 25 cierra esa lista, sigue con la salida de Génova y el culto de despedida a bordo del *I due amici*, y termina a mitad de palabra («em-», primera sílaba de «embarcarse»). Faltan por incorporar las páginas 1 a 6 (preliminares, índice y posible prólogo previo a la Introducción) y la 26 en adelante.
+Estado actual: páginas **7 a 48** transcritas (42 páginas). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», oración pendiente de la 49.
+
+Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 48** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. Faltan las páginas 1 a 6 (preliminares, índice y posible prólogo) y la 49 en adelante.
 
 ## Bloques y tipografía del libro
 
@@ -34,9 +36,15 @@ El libro no es tipográficamente uniforme. Hay que revisar el tipo de letra en c
 | 11 a 16 | Preámbulo | **Redonda** | Redonda negrita centrada (`PREAMBULO`, sin tilde) |
 | 17 a 20 | Capítulo I, secciones I y II | **Redonda** | Versalitas (`CAPITULO I`, `EL PROBLEMA DE LA EMIGRACIÓN`, `PRIMERA EMIGRACIÓN`) |
 | 21 a 23 | Capítulo I, sección II (sin título) | **Redonda** | Sin título ni rótulo; rótulos de origen en cursiva dentro de las listas |
-| 24 a 25 | Capítulo I, sección III | **Redonda** | Versalitas (`SEGUNDA EMIGRACIÓN`) + numeral suelto + rótulos en cursiva |
+| 24 a 26 | Capítulo I, sección III | **Redonda** | Versalitas (`SEGUNDA EMIGRACIÓN`) + numeral suelto + rótulos en cursiva |
+| 27 a 29 | Capítulo I, sección IV | **Redonda** | Versalitas (`TERCERA EMIGRACIÓN`), numeral suelto y fecha en cursiva (27) |
+| 30 a 32 | Capítulo I, sección V | **Redonda** | Versalitas (`LOS VALDENSES EN FLORIDA`) y numeral (30) |
+| 33 a 42 | Capítulo II, sección I | **Redonda** | Apertura de capítulo y sección (33), rótulos en cursiva (33, 36, 38 y 40) |
+| 43 a 48 | Capítulo II, sección II | **Redonda** | Versalitas (`COLONIA VALDENSE`), numeral y fecha en redonda (43); rótulos en cursiva (43 y 46) |
 
-La 17 es la única página del tramo con un título repartido en cinco renglones, y la 20 la que abre una sección nueva. La estructura de los títulos se repite: versalitas para el rótulo mayor, versalitas para el título de sección, versalitas o redonda negrita para el numeral romano suelto y cursiva para la fecha o el rótulo de línea. Los rótulos en cursiva son «Antes de 1848» (17), «Después del año 1848.» (18) y «(Noviembre de 1856)» (20). La sección III de la 24 repite exactamente el esquema de la 20, con el subtítulo «El nuevo contingente» como único caso en que el rótulo en cursiva va al margen izquierdo y no centrado.
+Las aperturas de capítulo de las páginas 17 y 33 tienen títulos repartidos en varios renglones: se conserva cada uno según su jerarquía. Las secciones III (24) y IV (27) llevan fechas en cursiva, mientras que «(1858 - 1958)» de la sección II del Capítulo II (43) va en redonda. No se generaliza una tipografía a todas las fechas.
+
+Los rótulos de relato también se comprueban individualmente: «El Rev. Francisco Enrique Snow Pendleton» (26), «Contrato del 31 de julio de 1858» (36), «Señalamiento de las chacras» (38), «Llegada de los primeros colonos» (40), «La colonia primitiva» (43) y «Ensanche de la colonia» (46) están en cursiva.
 
 ### Cursivas en las listas de emigrantes (21, 24 y 25)
 
@@ -68,8 +76,10 @@ A partir de la 17 aparecen las primeras notas al pie del libro. Su forma es fija
 |---|---|---|
 | Llamada | `(1)`, al tipo de la línea, con un espacio delante | tal cual, dentro del párrafo |
 | Separador | raya corta y gruesa al margen izquierdo | `---` |
-| Texto de la nota | uno a cuatro renglones o párrafos, en redonda, con su propio `(N)` | un párrafo por bloque, sin unificar entre sí |
+| Texto de la nota | uno o varios renglones o párrafos, en redonda, con su propio `(N)` | un párrafo por bloque, sin unificar entre sí |
 | Cifras | `old style`: altura de x, con el `4` y el `9` descendidos | se copian tal cual, con el punto de millar del original (`1.080`, `22.458`) |
+
+La numeración reinicia con (1) en la página 35, dentro del Capítulo II; no se continúa la serie del Capítulo I. La nota (3) de la página 39 ocupa gran parte de la hoja y contiene dos párrafos. En la 46, la referencia (12) va seguida de un párrafo con el rótulo *Nota:* en cursiva, que pertenece al impreso y se conserva antes del número de página.
 
 El `---` de la nota al pie no es un filete de cierre de página: la hoja lleva filete al pie **y** número de página debajo. Las notas de cada archivo aclaran cuál de los dos es cuál.
 
@@ -163,9 +173,25 @@ Y en las páginas 21 a 25, donde nueve lecturas dependían de la ampliación o d
 | «Rostam» → reguero de tinta | **Tomás Rostan** | un trazo diagonal atraviesa la `n` final; con filtro de paso alto la `n` queda despejada a ×16 |
 | «Modena» → tilde dudosa | **Módena** | el acento en la `ó` es inconfundible a ×14; es grafía spanishizada de *Modena* |
 
+### Revisión de las páginas 26 a 48
+
+Se cotejaron las fotografías completas y bandas de texto ampliadas ×3 con contraste, y se revisaron a ×6 los detalles pequeños. En las imágenes inclinadas conviene calcular la proyección en franjas locales o corregir la inclinación; una proyección sobre toda la caja puede unir renglones distintos.
+
+| Lectura conservada | Página | Comprobación |
+|---|---|---|
+| `Chambeaud` / `Ayassot` | 28 | recortes ×6; las grafías se distinguen, pero se deja el cotejo de estos nombres en papel pendiente |
+| Tres trazos de comillas de apertura | 31 y 43 | se representan con una comilla doble y una simple consecutivas (`"'`); el detalle ×6 permite contar los tres trazos |
+| `Concluímos` | 39 | se distingue la tilde en el detalle ×6 |
+| Falta de comillas de cierre en `"Plaza Doroteo García.` | 39 | se conserva el cierre incompleto de la nota (4) |
+| `Pág. 233` | 40 | detalle ×6; última cifra gastada, pendiente de confirmar en papel |
+| `precipio` | 42 | detalle ×6 confirma la ausencia de «ci»; no se corrige |
+| `cononia` | 45 | detalle ×6 confirma la segunda «n»; no se corrige |
+
+Las erratas «fraticidas» (34), «llamada Majestas» (36), «tuvieron que ser traslados» (40), «nuestro ranchos» (43), las grafías históricas y las inconsistencias de puntuación se preservan en el cuerpo y se explican en las notas individuales. Las anotaciones manuscritas y marcas ajenas al texto impreso quedan descritas en notas, sin incorporarlas al cuerpo.
+
 ### Verificación contra el libro impreso
 
-Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
+Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 26 a 48 aún no tienen ese cotejo. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
 
 ## Verificaciones pendientes
 
@@ -218,13 +244,25 @@ Lecturas seguras pero que conviene confirmar contra otra fuente (índice de cola
 | `Salmo 107` | 25 | numeración hebraica, no la Vulgata; el libro no da otra referencia |
 | `Inverso Pinasca` | 25 | topónimo poco frecuente; confirmable contra el índice de colaboradores |
 
+Para el nuevo tramo (26 a 48), además del cotejo general en papel, conviene revisar especialmente:
+
+| Punto | Página | Observación |
+|---|---|---|
+| `relatando de salida` | 26 | construcción anómala visible en la fotografía |
+| `Bleynat` / `Bleyuat` | 26 / 24 | grafías conservadas sin unificación |
+| `Chambeaud` / `Ayassot` | 28 | nombres revisados en detalle, a confirmar en papel |
+| `estamos` | 30 | partición `es` / `tamos` sin guion claramente visible |
+| `Errasquin` / `Errasquín` | 35-36 | el acento varía según la aparición |
+| `Pág. 233` | 40 | última cifra parcialmente gastada |
+| `da` / `hectáreas` | 47 | impresión débil o marcas sobre algunas letras |
+
 Ninguno de estos puntos se corrige: quedan como están impresos y anotados. Los que el libro impreso ya resolvió en el cotejo en papel siguen aquí como registro histórico de la duda, no como pendiente de lectura.
 
 ## Iteraciones futuras
 
 - **Agregar páginas**: fotografías nuevas van a `imagenes del libro/`; se crea `Pagina N.md` aplicando las convenciones de arriba. No hay que reescribir las páginas ya transcritas.
 - **Antes de transcribir**: revisar el tipo de letra de la página (cursiva en la Introducción, redonda en el resto), si hay versalitas en el título, si hay rótulo en cursiva, si lleva notas al pie y si la foto viene rotada.
-- **Cotejo de continuidad**: al agregar páginas, verificar que el último renglón de la página anterior y el primero de la nueva encadenen (palabra partida o corte de frase). `check.py` está en `/tmp/opencode` y sirve de apoyo, pero la unión debe confirmarse a ojo. Dos casos abiertos: la 24 cierra en «por el go-» y la 25 abre con «bierno», y la 25 cierra en «nunca habían em-», que la 26 tiene que completar. Además, el paréntesis de «(familia de 8 personas…» **queda abierto desde la 24 y se cierra en la primera línea de la 25**; la 26 no debe cerrarlo otra vez.
+- **Cotejo de continuidad**: al agregar páginas, verificar el último renglón de la anterior y el primero de la nueva. Quedan comprobados los enlaces «go-» / «bierno» (24-25), «em-» / «barcado» (25-26), «comprome-» / «tida» (31-32), «Ga-» / «briel» (34-35), «cose-» / «chas» (37-38), «cua-» / «dradas» (41-42), «re-» / «construída» (43-44), «práctica-» / «mente» (46-47) y «ofre-» / «cían» (47-48). La cita de Griot abre en la 41 y cierra en la 43. **Próxima continuidad pendiente: la oración «El pago debía realizarse en un plazo de cuatro años,» de la 48 hacia la 49.** No completar ese final por contexto.
 - **Corregir una transcripción**: si una verificación posterior resuelve una lectura dudosa, se actualiza el texto y se retira o reformula la nota correspondiente, de modo que las notas nunca contradigan el texto.
 - **Unificar el texto**: si más adelante se necesita un texto corrido sin notas ni cursivas, se puede generar aparte con un script que elimine las secciones `### Notas de transcripción` y los marcadores `*`. Esta carpeta es deliberadamente la fuente de verdad sin esa limpieza.
 - **El ODT de la raíz** es un documento aparte y de contenido mínimo; no se usó como fuente de contraste.

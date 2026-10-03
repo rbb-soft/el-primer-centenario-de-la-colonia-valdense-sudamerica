@@ -10,7 +10,7 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.4.0
+v0.5.0
 
 ## Estado
 
@@ -22,6 +22,10 @@ v0.4.0
 | 17 a 20 | Capítulo I: sección I «El problema de la emigración» y comienzo de la sección II «Primera emigración» | transcritas y verificadas |
 | 21 a 23 | Capítulo I: continuación de la sección II «Primera emigración» (primeras familias en el Uruguay) | transcritas y verificadas |
 | 24 a 25 | Capítulo I: sección III «Segunda emigración» (junio de 1857, «El nuevo contingente») y salida de Génova | transcritas y verificadas |
-| 26 en adelante | — | sin fotografiar |
+| 26 a 27 | Capítulo I: cierre de «Segunda emigración» y apertura de «Tercera emigración» | transcritas y cotejadas con fotografías |
+| 28 a 32 | Capítulo I: «Tercera emigración» y «Los Valdenses en Florida» | transcritas y cotejadas con fotografías |
+| 33 a 42 | Capítulo II: colonización, fundación de la primera colonia y llegada a La Paz | transcritas y cotejadas con fotografías |
+| 43 a 48 | Capítulo II: «Colonia Valdense», colonia primitiva y ensanche | transcritas y cotejadas con fotografías |
+| 49 en adelante | — | sin fotografiar |
 
-Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías.
+Hay 42 páginas transcritas, de la 7 a la 48. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 48 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La próxima página a incorporar es la 49, que debe continuar la oración «El pago debía realizarse en un plazo de cuatro años,» de la 48.
