@@ -26,7 +26,7 @@ De inmediato comenzó la venta, que se realizó en dos años. El pago debía rea
 
 Fuente: `imagenes del libro/pagina 48.jpeg`
 
-- Continúa «ofre-» (47) / «cían» (48), que forman «ofrecían». Cierra con coma en «cuatro años,»; la oración queda pendiente de la página 49, cuya imagen aún no está disponible.
+- Continúa «ofre-» (47) / «cían» (48), que forman «ofrecían». Cierra con coma en «cuatro años,»; la oración sigue con «empezando con el segundo» en la 49. Las dos láminas intercaladas se reservan para el libro final, sin transcripción.
 - Cuerpo y nota (13) en redonda. Se conservan «éstos», «Victorica», «Ramírez», «Griot» y «solo» sin tilde en la nota.
 - La superficie figura escrita en palabras: «dos mil setecientas treinta y tres hectáreas». No se convierte a cifras.
 - La nota (13) se transcribe completa, incluido el desenlace del pleito y su puntuación.

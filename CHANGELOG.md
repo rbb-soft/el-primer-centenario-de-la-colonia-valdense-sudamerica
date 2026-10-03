@@ -5,6 +5,22 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.6.0] — 2026-10-03
+
+### Added
+- 13 fotografías fuente de las páginas 49 a 61 y sus transcripciones independientes con notas; avance total a 55 páginas de texto (7 a 61).
+- Continuación de «Colonia Valdense», sección III «Planeando una segunda colonia Valdense», sección IV «Intervención del "Superior Gobierno"» y apertura de la V, «Cosmopolita».
+- Notas al pie (14) y (15) del Capítulo II, cartas y telegrama de 1883; registro de grafías y erratas como «cina-cina», «exhoneración», «una fondo» y «Comisión le Nueva Helvecia».
+- Dos láminas originales entre las páginas 48 y 49, reservadas para la confección del libro final y conservadas sin modificaciones.
+- Regla permanente y registro en `PROPOSITO.md`: excluir las láminas de toda transcripción y OCR, incluso sus leyendas; no generar markdown, contar pendientes ni alterar la numeración por ellas. Conservar ubicación y orden para el libro final.
+
+### Changed
+- `README.md` y `PROPOSITO.md`: estado, tipografía, verificación y próximas iteraciones actualizados hasta la página 61; siguiente página 62. El cotejo en papel de las páginas 26 a 61 sigue pendiente.
+- Árbol de directorios de `PROPOSITO.md` sincronizado con los archivos reales, incluidas las láminas, `README.md`, `CHANGELOG.md` y las nuevas páginas.
+- Nota de continuidad de la 48 actualizada: la oración sigue directamente en la 49, saltando las láminas. Documentados los enlaces «pue-» / «da», «perió-» / «dico» y «comisio-» / «nes», y el cierre de la carta en la 59.
+
+---
+
 ## [v0.5.0] — 2026-10-03
 
 ### Added

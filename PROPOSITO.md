@@ -1,30 +1,49 @@
 # Propósito del proyecto
 
-Transcripción diplomática de **«Historia de las Colonias Valdenses en su primer centenario (1858 - 1958)»**: cada página fotografiada del libro se convierte en un archivo markdown independiente, con el texto íntegro y fiel al original.
+Transcripción diplomática de **«Historia de las Colonias Valdenses en su primer centenario (1858 - 1958)»**: cada página de texto fotografiada del libro se convierte en un archivo markdown independiente, con el texto íntegro y fiel al original.
 
 El objetivo es la **exhaustividad documental, no la edición**. El texto se transcribe tal como está impreso —incluidas sus incongruencias ortográficas, sintácticas y de puntuación— y toda lectura dudosa queda registrada en las notas del archivo correspondiente, para que cualquier persona pueda verificarla contra la imagen sin releer el libro.
 
 ## Estructura
 
 ```
-Libro/
-├── PROPOSITO.md                          ← este archivo
+Libro/                                  ← raíz de este repositorio (nombre abreviado)
+├── CHANGELOG.md                         ← historial de versiones
 ├── HISTORIA DE LAS COLONIAS VALDENSES EN SU PRIMER CENTENARIO (1858 - 1958).odt
-├── imagenes del libro/                   ← fuente: una foto por página
-│   ├── Pagina 7.jpeg                     ← nombre en mayúscula
-│   ├── Paqina 8.jpeg                     ← error tipográfico y minúscula
+├── PROPOSITO.md                         ← este archivo
+├── README.md                            ← presentación y estado
+├── imagenes del libro/                  ← páginas de texto y láminas reservadas
+│   ├── imagen entre 48 y 49 1.jpeg       ← lámina: excluir de la transcripción
+│   ├── imagen entre 48 y 49 2.jpeg       ← lámina: excluir de la transcripción
+│   ├── Pagina 7.jpeg                    ← nombre en mayúscula
+│   ├── Paqina 8.jpeg                    ← error tipográfico del nombre
 │   ├── Pagina 9.jpeg
 │   ├── Pagina 10.jpeg
-│   └── pagina 11.jpeg … pagina 48.jpeg   ← nombre en minúscula
-└── markdown de paginas/                  ← destino: una transcripción por página
-    └── Pagina 7.md … Pagina 48.md        ← siempre «Pagina N.md», con mayúscula
+│   └── pagina 11.jpeg … pagina 61.jpeg  ← nombre en minúscula
+└── markdown de paginas/                 ← destino: una transcripción por página de texto
+    └── Pagina 7.md … Pagina 61.md        ← siempre «Pagina N.md», con mayúscula
 ```
 
 Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG, para no arrastrar el error «Paqina» ni la alternancia de mayúsculas. El nombre real del JPEG queda registrado en las notas de cada archivo.
 
-Estado actual: páginas **7 a 48** transcritas (42 páginas). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», oración pendiente de la 49.
+Estado actual: páginas **7 a 61** transcritas (55 páginas). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», que continúa con «empezando con el segundo» en la 49, saltando las dos láminas reservadas. La sección II termina en la 53, donde abre la III, «Planeando una segunda colonia Valdense»; la 56 abre la IV, «Intervención del "Superior Gobierno"»; la 61 abre la V, «Cosmopolita», con el rótulo «Los primeros pobladores».
 
-Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 48** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. Faltan las páginas 1 a 6 (preliminares, índice y posible prólogo) y la 49 en adelante.
+Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 61** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. Faltan las páginas 1 a 6 (preliminares, índice y posible prólogo) y la 62 en adelante.
+
+### Láminas reservadas para la confección del libro final
+
+**Regla permanente:** las páginas de imágenes o láminas se conservan como material gráfico para la confección del libro final y se ignoran durante todo el período de transcripción de imagen a markdown. Esta es una excepción explícita a la correspondencia «una fotografía → un markdown»: solo se transcriben las páginas de texto.
+
+| Archivo en `imagenes del libro/` | Ubicación en el libro | Tratamiento |
+|---|---|---|
+| `imagen entre 48 y 49 1.jpeg` | Entre las páginas 48 y 49, primera lámina | Reservada para el libro final; sin transcripción |
+| `imagen entre 48 y 49 2.jpeg` | Entre las páginas 48 y 49, segunda lámina | Reservada para el libro final; sin transcripción |
+
+- Conservar los JPEG originales, sus nombres y el orden 1 → 2. Deben permanecer en el repositorio para la futura composición del libro.
+- No aplicar OCR ni transcribir leyendas, títulos o contenido de estas láminas. No crear markdown, archivos vacíos ni páginas sustitutas para ellas.
+- No contarlas como páginas de texto pendientes, no asignarles números de página y no alterar la numeración existente. La continuidad del relato se coteja directamente de la 48 a la 49.
+- Antes de cada nueva tanda, clasificar las fotografías y consultar este registro. Incorporar aquí las futuras láminas reservadas con su nombre real y ubicación.
+- En cualquier procesamiento automático, seleccionar solo nombres de página completos con `^(Pagina|Paqina) [0-9]+\.jpeg$` (sin distinguir mayúsculas) y excluir expresamente los archivos de este registro. Nunca extraer un número suelto del nombre de una lámina: «48» y «49» indican su ubicación, no páginas a transcribir. Toda imagen que no cumpla el patrón o sea una lámina requiere clasificación antes de procesarse.
 
 ## Bloques y tipografía del libro
 
@@ -40,7 +59,10 @@ El libro no es tipográficamente uniforme. Hay que revisar el tipo de letra en c
 | 27 a 29 | Capítulo I, sección IV | **Redonda** | Versalitas (`TERCERA EMIGRACIÓN`), numeral suelto y fecha en cursiva (27) |
 | 30 a 32 | Capítulo I, sección V | **Redonda** | Versalitas (`LOS VALDENSES EN FLORIDA`) y numeral (30) |
 | 33 a 42 | Capítulo II, sección I | **Redonda** | Apertura de capítulo y sección (33), rótulos en cursiva (33, 36, 38 y 40) |
-| 43 a 48 | Capítulo II, sección II | **Redonda** | Versalitas (`COLONIA VALDENSE`), numeral y fecha en redonda (43); rótulos en cursiva (43 y 46) |
+| 43 a 52 y comienzo de 53 | Capítulo II, sección II | **Redonda** | Versalitas (`COLONIA VALDENSE`), numeral y fecha en redonda (43); rótulos en cursiva (43, 46 y 50) |
+| 53 a 55 y comienzo de 56 | Capítulo II, sección III | **Redonda** | Versalitas (`PLANEANDO UNA SEGUNDA COLONIA VALDENSE`), numeral III y rótulo en cursiva (53) |
+| 56 a 60 y comienzo de 61 | Capítulo II, sección IV | **Redonda** | Versalitas (`INTERVENCIÓN DEL "SUPERIOR GOBIERNO"`) y numeral IV (56); firmas en cursiva (59) |
+| 61 | Capítulo II, comienzo de sección V | **Redonda** | Versalitas (`COSMOPOLITA`), numeral V y rótulo en cursiva |
 
 Las aperturas de capítulo de las páginas 17 y 33 tienen títulos repartidos en varios renglones: se conserva cada uno según su jerarquía. Las secciones III (24) y IV (27) llevan fechas en cursiva, mientras que «(1858 - 1958)» de la sección II del Capítulo II (43) va en redonda. No se generaliza una tipografía a todas las fechas.
 
@@ -101,6 +123,7 @@ Estas reglas se aplican a toda página nueva:
 | Espacios | Los espacios múltiples de la composición se normalizan a uno solo. |
 | Rayas y comas | Se conservan tal como están impresas, incluso con espaciado irregular. |
 | Anomalías del original | **No se corrigen.** Se transcriben y se anotan. |
+| Láminas de imágenes | Se excluyen de toda transcripción, incluido su texto impreso; se conservan para el libro final y se registran en «Láminas reservadas». |
 | Marcas de archivo | Solo van en las notas, nunca dentro del texto, para no contaminar la transcripción. |
 
 ## Estructura de cada archivo
@@ -120,6 +143,8 @@ Estas reglas se aplican a toda página nueva:
    - los fragmentos del folio verso que transparentan y que **no** se transcribieron.
 
 ## Método de verificación
+
+Antes de comenzar, separar las páginas de texto de las láminas conforme al registro de exclusiones. Los pasos siguientes se aplican únicamente a las páginas de texto.
 
 El libro está impreso en letra inclinada y pequeña, con manchas de tinta, fotos torcidas y folio verso transparente. Por eso la transcripción no se hace de una sola pasada:
 
@@ -189,9 +214,26 @@ Se cotejaron las fotografías completas y bandas de texto ampliadas ×3 con cont
 
 Las erratas «fraticidas» (34), «llamada Majestas» (36), «tuvieron que ser traslados» (40), «nuestro ranchos» (43), las grafías históricas y las inconsistencias de puntuación se preservan en el cuerpo y se explican en las notas individuales. Las anotaciones manuscritas y marcas ajenas al texto impreso quedan descritas en notas, sin incorporarlas al cuerpo.
 
+### Revisión de las páginas 49 a 61
+
+Se cotejaron las fotografías completas, tres bandas superpuestas ampliadas ×3 con contraste por página y recortes de detalle ×6 para las lecturas pequeñas. La proyección de tinta se calculó por franjas locales para evitar mezclar renglones inclinados. Las dos láminas se clasificaron y se excluyeron de la transcripción.
+
+| Lectura conservada | Página | Comprobación |
+|---|---|---|
+| `cina-cina` | 49 | detalle ×6: n en ambas partes, sin tilde de ñ |
+| Trazo antes de `doscientos` | 52 | detalle ×6: marca aislada sin cierre; no se agrega paréntesis al texto |
+| `exhoneración` | 54 | detalle ×6 confirma la h; no se corrige |
+| Coma final después de `español` | 57 | detalle ×6 confirma la puntuación del inciso b) |
+| `una fondo` | 58 | bandas ampliadas confirman la errata; no se corrige |
+| `V. E..` | 59 | detalle ×6 confirma los dos puntos consecutivos |
+| `Comisión le Nueva Helvecia` | 60 | detalle ×6: letra semejante a l; se conserva y queda pendiente el cotejo en papel |
+| `Voelker` / `Schwyn` | 61 | detalle ×6: se resuelve el corte de renglón del primero y se conserva la y del segundo |
+
+Las notas (14) y (15) del Capítulo II quedan en las páginas 50 y 53. La carta que abre en la 57 continúa en la 58 y cierra con la firma en la 59; las comillas de apertura repetidas y sus irregularidades se preservan. Las grafías sin tilde «Ugon», «como» y «donde», las mayúsculas y las construcciones anómalas se explican en las notas individuales.
+
 ### Verificación contra el libro impreso
 
-Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 26 a 48 aún no tienen ese cotejo. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
+Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 26 a 61 aún no tienen ese cotejo. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
 
 ## Verificaciones pendientes
 
@@ -244,7 +286,7 @@ Lecturas seguras pero que conviene confirmar contra otra fuente (índice de cola
 | `Salmo 107` | 25 | numeración hebraica, no la Vulgata; el libro no da otra referencia |
 | `Inverso Pinasca` | 25 | topónimo poco frecuente; confirmable contra el índice de colaboradores |
 
-Para el nuevo tramo (26 a 48), además del cotejo general en papel, conviene revisar especialmente:
+Para las páginas 26 a 61, además del cotejo general en papel, conviene revisar especialmente:
 
 | Punto | Página | Observación |
 |---|---|---|
@@ -255,14 +297,20 @@ Para el nuevo tramo (26 a 48), además del cotejo general en papel, conviene rev
 | `Errasquin` / `Errasquín` | 35-36 | el acento varía según la aparición |
 | `Pág. 233` | 40 | última cifra parcialmente gastada |
 | `da` / `hectáreas` | 47 | impresión débil o marcas sobre algunas letras |
+| `cina-cina` | 49 | grafía sin ñ conservada según el detalle de la fotografía |
+| Trazo junto a `doscientos` | 52 | se excluye como marca ajena a las letras; confirmar en papel |
+| `exhoneración` | 54 | errata con h conservada |
+| `una fondo` | 58 | errata conservada |
+| `Comisión le Nueva Helvecia` | 60 | confirmar en papel la letra semejante a l |
+| `Voelker` / `Schwyn` | 61 | nombres conservados; signo de partición del primero muy corto |
 
 Ninguno de estos puntos se corrige: quedan como están impresos y anotados. Los que el libro impreso ya resolvió en el cotejo en papel siguen aquí como registro histórico de la duda, no como pendiente de lectura.
 
 ## Iteraciones futuras
 
-- **Agregar páginas**: fotografías nuevas van a `imagenes del libro/`; se crea `Pagina N.md` aplicando las convenciones de arriba. No hay que reescribir las páginas ya transcritas.
+- **Agregar páginas**: fotografías nuevas van a `imagenes del libro/`; primero se clasifican según «Láminas reservadas». Solo para páginas de texto se crea `Pagina N.md` aplicando las convenciones de arriba. Las láminas se registran y se conservan para el libro final, sin transcripción. No hay que reescribir las páginas ya transcritas.
 - **Antes de transcribir**: revisar el tipo de letra de la página (cursiva en la Introducción, redonda en el resto), si hay versalitas en el título, si hay rótulo en cursiva, si lleva notas al pie y si la foto viene rotada.
-- **Cotejo de continuidad**: al agregar páginas, verificar el último renglón de la anterior y el primero de la nueva. Quedan comprobados los enlaces «go-» / «bierno» (24-25), «em-» / «barcado» (25-26), «comprome-» / «tida» (31-32), «Ga-» / «briel» (34-35), «cose-» / «chas» (37-38), «cua-» / «dradas» (41-42), «re-» / «construída» (43-44), «práctica-» / «mente» (46-47) y «ofre-» / «cían» (47-48). La cita de Griot abre en la 41 y cierra en la 43. **Próxima continuidad pendiente: la oración «El pago debía realizarse en un plazo de cuatro años,» de la 48 hacia la 49.** No completar ese final por contexto.
+- **Cotejo de continuidad**: al agregar páginas, verificar el último renglón de la anterior y el primero de la nueva. Quedan comprobados los enlaces «go-» / «bierno» (24-25), «em-» / «barcado» (25-26), «comprome-» / «tida» (31-32), «Ga-» / «briel» (34-35), «cose-» / «chas» (37-38), «cua-» / «dradas» (41-42), «re-» / «construída» (43-44), «práctica-» / «mente» (46-47) y «ofre-» / «cían» (47-48). La cita de Griot abre en la 41 y cierra en la 43. También quedan comprobadas la oración «cuatro años,» / «empezando con el segundo» (48-49, saltando las láminas), «pue-» / «da» (58-59), «perió-» / «dico» (59-60) y «comisio-» / «nes» (60-61). La carta iniciada en la 57 cierra en la 59. **Próxima página: 62, continuación de la sección V «Cosmopolita».** La 61 cierra con párrafo completo; no anticipar el texto que falta.
 - **Corregir una transcripción**: si una verificación posterior resuelve una lectura dudosa, se actualiza el texto y se retira o reformula la nota correspondiente, de modo que las notas nunca contradigan el texto.
 - **Unificar el texto**: si más adelante se necesita un texto corrido sin notas ni cursivas, se puede generar aparte con un script que elimine las secciones `### Notas de transcripción` y los marcadores `*`. Esta carpeta es deliberadamente la fuente de verdad sin esa limpieza.
 - **El ODT de la raíz** es un documento aparte y de contenido mínimo; no se usó como fuente de contraste.
