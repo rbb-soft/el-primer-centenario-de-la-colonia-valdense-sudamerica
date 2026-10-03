@@ -10,4 +10,14 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.2.0
+v0.3.0
+
+## Estado
+
+| Páginas | Contenido | Estado |
+|---|---|---|
+| 1 a 6 | preliminares, índice y prólogo | sin fotografiar |
+| 7 a 10 | Introducción | transcritas |
+| 11 a 16 | Preámbulo | transcritas |
+| 17 a 20 | Capítulo I: sección I «El problema de la emigración» y comienzo de la sección II «Primera emigración» | transcritas |
+| 21 en adelante | — | sin fotografiar |

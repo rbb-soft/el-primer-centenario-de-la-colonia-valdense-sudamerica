@@ -5,6 +5,20 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.3.0] — 2026-10-03
+
+### Added
+- Transcripción de las páginas 17, 18, 19 y 20, con las notas de transcripción correspondientes. La 17 abre el Capítulo I («Los "Pionniers"»); la 20 cierra la sección I, «El problema de la emigración», y abre la sección II, «Primera emigración».
+- Primeras **notas al pie** del libro: las llamadas `(1)`, `(2)` y `(3)` y sus textos, con el filete separador.
+- Nuevas convenciones en `PROPOSITO.md`: versalitas de los títulos, títulos de varios renglones, rótulos en cursiva dentro de un cuerpo en redonda, notas al pie, cifras de cuerpo bajo (`old style`) y fotos que abarcan dos hojas.
+- Nuevo método de segmentación de renglones por proyección de tinta, documentado en `PROPOSITO.md`, y seis lecturas de las páginas 17 a 20 que solo quedaron fijadas con ampliación.
+
+### Changed
+- `PROPOSITO.md` pasa de «páginas 7 a 16» a «páginas 7 a 20», con el detalle de lo que falta por incorporar.
+- La tabla de verificaciones pendientes suma diez puntos de las páginas 17 a 20: `Sud-Americana`, `Würtemberg`, `Boletín Nos. 18 y 19`, `Meille`, `Santa Fé`, `Le Long`, `Aarón Castellanos`, `Bartolomé Malan`, `Villar Pellice`, `Juan Pedro Revel` y `Santa Margarita`.
+
+---
+
 ## [v0.2.0] — 2026-10-03
 
 ### Added
