@@ -10,14 +10,18 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.3.0
+v0.4.0
 
 ## Estado
 
 | Páginas | Contenido | Estado |
 |---|---|---|
 | 1 a 6 | preliminares, índice y prólogo | sin fotografiar |
-| 7 a 10 | Introducción | transcritas |
-| 11 a 16 | Preámbulo | transcritas |
-| 17 a 20 | Capítulo I: sección I «El problema de la emigración» y comienzo de la sección II «Primera emigración» | transcritas |
-| 21 en adelante | — | sin fotografiar |
+| 7 a 10 | Introducción | transcritas y verificadas |
+| 11 a 16 | Preámbulo | transcritas y verificadas |
+| 17 a 20 | Capítulo I: sección I «El problema de la emigración» y comienzo de la sección II «Primera emigración» | transcritas y verificadas |
+| 21 a 23 | Capítulo I: continuación de la sección II «Primera emigración» (primeras familias en el Uruguay) | transcritas y verificadas |
+| 24 a 25 | Capítulo I: sección III «Segunda emigración» (junio de 1857, «El nuevo contingente») y salida de Génova | transcritas y verificadas |
+| 26 en adelante | — | sin fotografiar |
+
+Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías.

@@ -36,7 +36,7 @@ Fuente: `imagenes del libro/pagina 18.jpeg`
 - **Llamada de nota al pie «(2)»** al final del primer párrafo, con un espacio delante y al tipo de la línea.
 - **Filete de nota al pie** representado con `---`; no es filete de cierre de página.
 - **Nota al pie en dos renglones**, aquí unificados: «(2) Véase Boletín de la Soc. Sud-Americana de Hist. Valdense, Nº 15 (Págs. 24-64) y Boletín Nos. 18 y 19 (Págs. 30-80).» El apellido se parte `Valden-` / `se,` de renglón a renglón.
-- **«Nº»** con la «o» en versalita, como indicador de ordinal masculino, y sin raya debajo. Los guiones de «24-64» y «30-80» son guiones cortos de cifra, distintos de las rayas del cuerpo del texto.
+- **«Nº»** con la `o` en versalita y **con una raya corta debajo**, el indicador de ordinal masculino tradicional. La raya es un trazo de menos de un píxel en el original: no se distingue a ×5, aparece con claridad a ×16. Los guiones de «24-64» y «30-80» son guiones cortos de cifra, distintos de las rayas del cuerpo del texto.
 - **Particiones de renglón** resueltas en el texto corrido: `colo-nias`, `fran-cés`, `Emancip-ción`, `Valden-ses`, `tempo-raria`, `po-blación`, `Go-bierno`, `rea-lizó`.
 - **La página cierra con punto** y es un párrafo completo: no hay palabra partida. La 19 arranca con párrafo nuevo.
 - **Daños de la fotografía**: en la esquina superior izquierda hay una perforación con su halo oscuro —una laguijadura de insecto— y el borde del papel está ennegrecido y rasgado por la encuadernación. Ninguna mancha alcanza el texto.

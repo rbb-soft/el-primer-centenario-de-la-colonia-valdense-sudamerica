@@ -5,6 +5,25 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.4.0] — 2026-10-03
+
+### Added
+- Cinco fotografías fuente en `imagenes del libro/`: `pagina 21.jpeg`, `pagina 22.jpeg`, `pagina 23.jpeg`, `pagina 24.jpeg` y `pagina 25.jpeg`.
+- Transcripción de las páginas 21, 22, 23, 24 y 25, con sus notas de transcripción. Las 21 a 23 continúan la sección II, «Primera emigración» (la instalación de las primeras familias en el Uruguay); la 24 abre la sección III, «Segunda emigración» (junio de 1857, «El nuevo contingente») con la lista de las diez familias, y la 25 cierra esa lista y sigue con la salida de Génova y el culto de despedida a bordo del *I due amici*.
+- Notas al pie (4) a (7), con sus filetes separadores: el pocillo de Juan Pedro Planchon, la biografía de Juan Pedro Baridon, la carta publicada en el Boletín y la cita del Salmo 107.
+- Nueva convención documentada en `PROPOSITO.md` para las **listas de emigrantes**: los nombres de varones van en cursiva y los de mujeres en redonda, aunque compartan apellido; el criterio y sus casos límite quedan en una tabla con las páginas 21, 24 y 25.
+- Nuevas entradas en la tabla de lecturas fijadas solo con ampliación: `suibiografiado` (22), `$ 30.00` (23), `Pantaléón Pérez` (23), `Santa Fe` (24), `Pablo Davyt` (24), `Eliseo Bertinal` (24), `Tomás Rostan` (25) y `Módena` (25).
+- Sección nueva en `PROPOSITO.md` sobre la **verificación contra el libro en papel**, que cierra las páginas 7 a 25.
+
+### Changed
+- `PROPOSITO.md` pasa de «páginas 7 a 20» a «páginas 7 a 25», con el detalle de la sección III y de lo que falta por incorporar; la tabla de bloques y tipografía incluye las filas de las páginas 21 a 25.
+- La tabla de verificaciones pendientes suma los puntos de las páginas 21 a 25: `Planchon`, los cuatro apellidos compuestos de la 21, `Enrichetta`, `suibiografiado`, `Società di Studi Valdesi`, `Pantaléón Pérez`, las cuentas de «10 familias» y «72 personas», `Davyt`, las cuatro formas `Bertin`/`Berton`/`Bertinal`/`Bertinat`, `Bleyuat`, `Pramollo`, `Pomaretto`, `Rostan`, `Módena`, `Salmo 107` e `Inverso Pinasca`.
+- El apartado de fotos que abarcan más de una hoja incorpora la 25, que muestra fragmentos de la 26 en el margen izquierdo y está torcida, y la 24, con el margen de encuadernación ennegrecido.
+- `Pagina 18.md`: se confirma con aumento ×16 la raya corta bajo el indicador de ordinal de `Nº`.
+- `Pagina 25.md`: se reformula la nota de las dos fechas de la página para que no contradiga el texto, que sí da la del sepelio (24 de junio de 1857) y la de la salida (viernes 26).
+
+---
+
 ## [v0.3.0] — 2026-10-03
 
 ### Added
