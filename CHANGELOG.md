@@ -5,6 +5,20 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.7.0] — 2026-10-04
+
+### Added
+- 37 fotografías fuente y sus transcripciones independientes: páginas 62 a 69 y 72 a 100. Total: 92 páginas de texto (7 a 69 y 72 a 100).
+- Continuación de «Cosmopolita» y secciones VI a XII del Capítulo II; apertura de «En el Departamento de Soriano», secciones I y II, hasta «Palmitas».
+- Notas al pie (16) a (27), ornamentos y notas de lectura de nombres, cifras, grafías y puntuación. Las 37 páginas fueron cotejadas con fotografías completas, bandas ampliadas y detalles ×6; su verificación en papel queda pendiente.
+
+### Changed
+- `README.md` y `PROPOSITO.md`: estado, tipografía, árboles, cotejos y próximas iteraciones actualizados. Las fuentes 70 y 71 faltan y quedan como prioridad, antes de continuar en la 101; no se reconstruye su texto ni se crean archivos sustitutos.
+- Patrón de selección de fotografías actualizado a un mínimo de dos dígitos para admitir la página 100. Se mantiene la exclusión permanente de las dos láminas entre 48 y 49, reservadas para el libro final, sin OCR ni markdown.
+- Nota de continuidad de la página 61 actualizada con la 62 ya incorporada. El cotejo en papel de las páginas 26 a 69 y 72 a 100 sigue pendiente.
+
+---
+
 ## [v0.6.1] — 2026-10-03
 
 ### Changed

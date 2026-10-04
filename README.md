@@ -10,7 +10,7 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.6.1
+v0.7.0
 
 ## Estado
 
@@ -31,8 +31,14 @@ v0.6.1
 | 53 a 55 | Capítulo II: cierre de sección II y «Planeando una segunda colonia Valdense» | transcritas y cotejadas con fotografías |
 | 56 a 60 | Capítulo II: cierre de sección III e «Intervención del "Superior Gobierno"» | transcritas y cotejadas con fotografías |
 | 61 | Capítulo II: cierre de sección IV y «Cosmopolita» | transcrita y cotejada con fotografía |
-| 62 en adelante | — | sin fotografiar |
+| 62 a 65 | Capítulo II: continuación de «Cosmopolita» | transcritas y cotejadas con fotografías |
+| 66 a 69 | Capítulo II: «Riachuelo» y comienzo de «Artilleros» | transcritas y cotejadas con fotografías |
+| 70 a 71 | continuidad de «Artilleros» por comprobar | fotografías faltantes; sin transcripción |
+| 72 a 85 | Capítulo II: «Tarariras y Quintón», «Ombúes de Lavalle» y comienzo de «Colonia Miguelete» | transcritas y cotejadas con fotografías |
+| 86 a 91 | Capítulo II: «Colonia Miguelete», «C. Miguelete» y «San Pedro» | transcritas y cotejadas con fotografías |
+| 92 a 100 | «En el Departamento de Soriano»: «Los Pionn'iers» y «Formación de la colonia», hasta Palmitas | transcritas y cotejadas con fotografías |
+| 101 en adelante | — | sin fotografiar |
 
-Hay 55 páginas de texto transcritas, de la 7 a la 61. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 61 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La próxima página a incorporar es la 62, continuación de «Cosmopolita».
+Hay 92 páginas de texto transcritas: 7 a 69 y 72 a 100. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 69 y 72 a 100 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. Faltan las fotografías 70 y 71: se incorporarán cuando estén disponibles, sin reconstruir el texto ni renumerar las páginas posteriores. Después de completar ese salto, la siguiente página es la 101.
 
 **Las láminas `imagen entre 48 y 49 1.jpeg` y `imagen entre 48 y 49 2.jpeg` se reservan para la confección del libro final.** Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y su orden entre la 48 y la 49. Esta regla y el registro de exclusiones están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.

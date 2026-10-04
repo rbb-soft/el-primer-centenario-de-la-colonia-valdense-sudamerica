@@ -20,7 +20,7 @@ Se comprende pues como el arroyo Rosario, por varios años, había sido consider
 
 Fuente: `imagenes del libro/pagina 61.jpeg`
 
-- Completa «comisio-» (60) / «nes» (61), que forman «comisiones». Cierra con párrafo completo; el desarrollo de la sección V seguirá en la 62, aún no disponible.
+- Completa «comisio-» (60) / «nes» (61), que forman «comisiones». Cierra con párrafo completo; el desarrollo de la sección V continúa en la 62, ya incorporada.
 - Cuerpo en redonda. Se conserva el numeral V como línea independiente, «COSMOPOLITA» en mayúsculas por las versalitas y el rótulo «Los primeros pobladores» en cursiva.
 - Se preservan «Juan Teófilo Karlen», «Rodolfo Voelker», «Alejandro Schwyn» y el punto y coma después de «Schwyn». El signo al final de «Voel» es muy corto y semejante a un punto; se resuelve el corte de renglón «Voel» / «ker» sin agregar puntuación al apellido.
 - Se conservan «fué», «Estas», «Este» y «como» sin tilde, «río de la Plata», «al Oeste», «al Norte» y las cifras «15» y «25».
