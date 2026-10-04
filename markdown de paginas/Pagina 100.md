@@ -32,7 +32,7 @@ Fuente: `imagenes del libro/pagina 100.jpeg`
 - Rótulo «Palmitas» en cursiva; cuerpo, nombres y nota al pie en redonda.
 - Se conservan «Marin» y «Negrin» sin tilde, «Guigou Peyrot» y «Negrin Berton» sin guion, y «Dorrey».
 - Los tres asteriscos de cierre se representan en dos renglones, uno sobre dos; son un ornamento, no llamadas al pie.
-- La nota (27) está separada por el filete del impreso. La página cierra con párrafo completo; la 101 no está disponible.
+- La nota (27) está separada por el filete del impreso. La página cierra con párrafo completo; la 101 continúa el relato sobre Soriano.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
 - Número impreso «— 100 —».
 - Lectura cotejada con la fotografía completa, bandas ampliadas con contraste y recortes de detalle ×6; cotejo final de la transcripción realizado. Pendiente de verificación contra el libro en papel.

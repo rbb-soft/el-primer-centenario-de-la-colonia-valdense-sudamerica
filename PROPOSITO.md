@@ -17,20 +17,24 @@ Libro/                                  ← raíz de este repositorio (nombre ab
 │   ├── imagen entre 48 y 49 2.jpeg       ← lámina: excluir de la transcripción
 │   ├── imagen entre 64 y 65 1.jpeg       ← lámina: excluir de la transcripción
 │   ├── imagen entre 64 y 65 2.jpeg       ← lámina: excluir de la transcripción
+│   ├── imagen entre 112 y 113 1.jpeg     ← lámina: excluir de la transcripción
+│   ├── imagen entre 112 y 113 2.jpeg     ← lámina: excluir de la transcripción
+│   ├── imagen entre 128 y 129 1.jpeg     ← lámina: excluir de la transcripción
+│   ├── imagen entre 128 y 129 2.jpeg     ← lámina: excluir de la transcripción
 │   ├── pagina 07.jpeg                   ← nombre en minúscula con cero a la izquierda
 │   ├── pagina 08.jpeg
 │   ├── pagina 09.jpeg
 │   ├── pagina 10.jpeg
-│   └── pagina 11.jpeg … pagina 100.jpeg ← nombre en minúscula; sin saltos
+│   └── pagina 11.jpeg … pagina 150.jpeg ← nombre en minúscula; sin saltos
 └── markdown de paginas/                 ← destino: una transcripción por página de texto
-    └── Pagina 7.md … Pagina 100.md       ← siempre «Pagina N.md», con mayúscula
+    └── Pagina 7.md … Pagina 150.md       ← siempre «Pagina N.md», con mayúscula
 ```
 
-Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG. Los nombres reales de los JPEG quedan registrados en las notas de cada archivo. Actualmente las fuentes de texto siguen `pagina NN.jpeg`, en minúscula, con un mínimo de dos dígitos (07 a 09 con cero inicial; 100 con tres dígitos); el destino conserva `Pagina N.md`, sin cero inicial.
+Correspondencia entre fuente y destino: el nombre del archivo markdown sigue el número de página (`Pagina N.md`), no el nombre del JPEG. Los nombres reales de los JPEG quedan registrados en las notas de cada archivo. Actualmente las fuentes de texto siguen `pagina NN.jpeg`, en minúscula, con un mínimo de dos dígitos (07 a 09 con cero inicial; 100 a 150 con tres dígitos); el destino conserva `Pagina N.md`, sin cero inicial.
 
-Estado actual: páginas **7 a 100** transcritas (94 páginas de texto, sin saltos). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», que continúa con «empezando con el segundo» en la 49, saltando las dos láminas reservadas. La sección II termina en la 53, donde abre la III, «Planeando una segunda colonia Valdense»; la 56 abre la IV, «Intervención del "Superior Gobierno"»; la 61 abre la V, «Cosmopolita», con el rótulo «Los primeros pobladores». La sección V continúa hasta la 65; la 66 abre la VI, «Riachuelo», y la 67 la VII, «Artilleros», que continúa con «Rincón del Sauce» y «Progreso de la colonia» en las páginas 69 a 71. Las páginas 70 y 71 ya están incorporadas: la 69 cierra con párrafo completo, la 70 continúa el relato y la 71 termina la sección antes de la nueva apertura de la 72. La 72 abre la VIII, «Tarariras y Quintón»; la 75 la IX, «Ombúes de Lavalle»; la 85 la X, «Colonia Miguelete»; la 86 la XI, «C. Miguelete»; y la 89 la XII, «San Pedro», que llega hasta la 91. La 92 abre «En el Departamento de Soriano» y su sección I, «Los Pionn'iers»; la 93 abre la II, «Formación de la colonia», que continúa hasta el rótulo «Palmitas» de la 100. No se añade un número de capítulo que el impreso no muestra.
+Estado actual: páginas **7 a 150** transcritas (144 páginas de texto, sin saltos). La 7 abre la Introducción; la 11 abre el Preámbulo, que cierra en la 16; la 17 abre el Capítulo I («Los "Pionniers"»). La sección I, «El problema de la emigración», llega hasta la 20, donde abre la sección II, «Primera emigración», que sigue hasta la 23. La sección III, «Segunda emigración», abre en la 24 y sigue hasta la 27: el corte «em-» (25) / «barcado» (26) forma «embarcado». La 27 abre la sección IV, «Tercera emigración», y la 30 abre la V, «Los Valdenses en Florida». La 33 cierra el Capítulo I y abre el II, «Colonización», con la sección I, «Fundación de la primera colonia (1858)». La 43 abre la sección II, «Colonia Valdense (1858 - 1958)»; la 46 inicia el rótulo «Ensanche de la colonia». La 48 termina con «El pago debía realizarse en un plazo de cuatro años,», que continúa con «empezando con el segundo» en la 49, saltando las dos láminas reservadas. La sección II termina en la 53, donde abre la III, «Planeando una segunda colonia Valdense»; la 56 abre la IV, «Intervención del "Superior Gobierno"»; la 61 abre la V, «Cosmopolita», con el rótulo «Los primeros pobladores». La sección V continúa hasta la 65; la 66 abre la VI, «Riachuelo», y la 67 la VII, «Artilleros», que continúa con «Rincón del Sauce» y «Progreso de la colonia» en las páginas 69 a 71. Las páginas 70 y 71 ya están incorporadas: la 69 cierra con párrafo completo, la 70 continúa el relato y la 71 termina la sección antes de la nueva apertura de la 72. La 72 abre la VIII, «Tarariras y Quintón»; la 75 la IX, «Ombúes de Lavalle»; la 85 la X, «Colonia Miguelete»; la 86 la XI, «C. Miguelete»; y la 89 la XII, «San Pedro», que llega hasta la 91. La 92 abre «En el Departamento de Soriano» y su sección I, «Los Pionn'iers»; la 93 abre la II, «Formación de la colonia», que continúa hasta el rótulo «Palmitas» de la 100. La 101 cierra Soriano y abre Rivera, Treinta y Tres y Río Negro; la 104 abre Paysandú y la 110 Rocha. La 112 inicia Alférez y la 114 la Comisión Valdense de Colonización, que llega hasta la 122. La 123 abre «En la República Argentina» y Santa Fe; la 129 el norte de Santa Fe y Colonia Alejandra; la 135 Las Garzas; la 136 El Sombrerito; la 138 Calchaquí; y la 139 Entre Ríos con Rosario Tala. La 142 abre San Gustavo; la 144 Córdoba, Chaco y Santiago del Estero; y la 147 La Pampa y Buenos Aires, con Colonia Iris, que continúa en la 150. No se añade un número de capítulo que el impreso no muestra.
 
-Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 100** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. Faltan las páginas 1 a 6 (preliminares, índice y posible prólogo) y la 101 en adelante.
+Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 150** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. Faltan las páginas 1 a 6 (preliminares, índice y posible prólogo) y la 151 en adelante.
 
 ### Láminas reservadas para la confección del libro final
 
@@ -42,16 +46,20 @@ Las páginas **7 a 25** están verificadas contra el libro en papel. Las **26 a 
 | `imagen entre 48 y 49 2.jpeg` | Entre las páginas 48 y 49, segunda lámina | Reservada para el libro final; sin transcripción |
 | `imagen entre 64 y 65 1.jpeg` | Entre las páginas 64 y 65, primera lámina | Reservada para el libro final; sin transcripción |
 | `imagen entre 64 y 65 2.jpeg` | Entre las páginas 64 y 65, segunda lámina; fotografía girada | Reservada para el libro final; sin transcripción |
+| `imagen entre 112 y 113 1.jpeg` | Entre las páginas 112 y 113, primera lámina | Reservada para el libro final; sin transcripción |
+| `imagen entre 112 y 113 2.jpeg` | Entre las páginas 112 y 113, segunda lámina | Reservada para el libro final; sin transcripción |
+| `imagen entre 128 y 129 1.jpeg` | Entre las páginas 128 y 129, primera lámina | Reservada para el libro final; sin transcripción |
+| `imagen entre 128 y 129 2.jpeg` | Entre las páginas 128 y 129, segunda lámina | Reservada para el libro final; sin transcripción |
 
 - Conservar los JPEG originales, sus nombres y el orden 1 → 2. Deben permanecer en el repositorio para la futura composición del libro.
 - No aplicar OCR ni transcribir leyendas, títulos o contenido de estas láminas. No crear markdown, archivos vacíos ni páginas sustitutas para ellas.
-- No contarlas como páginas de texto pendientes, no asignarles números de página y no alterar la numeración existente. La continuidad del relato se coteja directamente de la 48 a la 49 y de la 64 a la 65, saltando cada par de láminas.
+- No contarlas como páginas de texto pendientes, no asignarles números de página y no alterar la numeración existente. La continuidad del relato se coteja directamente de la 48 a la 49, de la 64 a la 65, de la 112 a la 113 y de la 128 a la 129, saltando cada par de láminas.
 - Antes de cada nueva tanda, clasificar las fotografías y consultar este registro. Incorporar aquí las futuras láminas reservadas con su nombre real y ubicación.
 - En cualquier procesamiento automático, seleccionar solo nombres de página completos con `^pagina [0-9]{2,}\.jpeg$` (minúscula, espacio, mínimo dos dígitos con cero a la izquierda para las páginas 7 a 9) y excluir expresamente los archivos de este registro. Nunca extraer un número suelto del nombre de una lámina: «48» y «49» indican su ubicación, no páginas a transcribir. Toda imagen que no cumpla el patrón o sea una lámina requiere clasificación antes de procesarse.
 
 ### Fotografías de texto faltantes
 
-El inventario actual contiene 94 fotografías de texto (7 a 100) y cuatro láminas reservadas. Las páginas 70 y 71 ya están transcritas y cotejadas con la 69 y la 72: se cerró el salto de la tanda anterior. Faltan las fuentes 1 a 6 y 101 en adelante. Si en futuras tandas falta una página, conservar el salto y no crear archivos vacíos, completar el texto por contexto ni renumerar las páginas posteriores.
+El inventario actual contiene 144 fotografías de texto (7 a 150) y ocho láminas reservadas, 152 JPEG en total. Las páginas 70 y 71 ya están transcritas y cotejadas con la 69 y la 72: se cerró el salto de la tanda anterior. Faltan las fuentes 1 a 6 y 151 en adelante. Si en futuras tandas falta una página, conservar el salto y no crear archivos vacíos, completar el texto por contexto ni renumerar las páginas posteriores.
 
 En cada tanda, comparar los números de las fotografías de texto con los markdown existentes. La página más alta no indica un tramo completo: registrar los números faltantes y contar únicamente páginas de texto efectivamente transcritas. Al incorporar una página faltante, cotejarla con sus vecinas antes de dar por cerrada esa continuidad.
 
@@ -82,6 +90,11 @@ El libro no es tipográficamente uniforme. Hay que revisar el tipo de letra en c
 | 89 a 91 | Capítulo II, sección XII | **Redonda** | Versalitas (`SAN PEDRO`), numeral `XII.` y rótulo en cursiva |
 | 92 y comienzo de 93 | En el Departamento de Soriano, sección I | **Redonda** | Encabezado propio, versalitas (`LOS PIONN'IERS`) y numeral I |
 | 93 a 100 | En el Departamento de Soriano, sección II | **Redonda** | Versalitas (`FORMACIÓN DE LA COLONIA`), numeral `II.` y rótulos en cursiva |
+| 101 a 110 | Rivera y Treinta y Tres, Río Negro y Paysandú | **Redonda** | Encabezados departamentales en negrita; numerales sueltos, títulos en versalitas y rótulos en cursiva |
+| 110 a 114 | Rocha: Santa Teresa y Alférez | **Redonda** | Numerales sueltos, títulos en versalitas y rótulos en cursiva |
+| 114 a 122 | Comisión Valdense de Colonización | **Redonda** | Encabezado en negrita (114) y rótulos en cursiva (115 y 116); decreto y citas en redonda |
+| 123 a 143 | República Argentina: Santa Fe y Entre Ríos | **Redonda** | Encabezados de país y provincia en negrita; numerales en línea y rótulos en cursiva |
+| 144 a 150 | Córdoba, Chaco, Santiago del Estero, La Pampa y Buenos Aires | **Redonda** | Encabezados provinciales en negrita; algunos topónimos en cursiva (145 y 146) |
 
 Las aperturas de capítulo de las páginas 17 y 33 tienen títulos repartidos en varios renglones: se conserva cada uno según su jerarquía. Las secciones III (24) y IV (27) llevan fechas en cursiva, mientras que «(1858 - 1958)» de la sección II del Capítulo II (43) va en redonda. No se generaliza una tipografía a todas las fechas.
 
@@ -122,7 +135,7 @@ A partir de la 17 aparecen las primeras notas al pie del libro. Su forma es fija
 
 La numeración reinicia con (1) en la página 35, dentro del Capítulo II; no se continúa la serie del Capítulo I. La nota (3) de la página 39 ocupa gran parte de la hoja y contiene dos párrafos. En la 46, la referencia (12) va seguida de un párrafo con el rótulo *Nota:* en cursiva, que pertenece al impreso y se conserva antes del número de página.
 
-Las notas (16) a (27) aparecen en la tanda 62 a 69 y 72 a 100. La apertura de «En el Departamento de Soriano» no reinicia su numeración: la nota (22) de la 92 sigue a la (21) de la 91. Se conservan las referencias internas tal como están impresas.
+Las notas (16) a (27) aparecen en la tanda 62 a 69 y 72 a 100. La apertura de «En el Departamento de Soriano» no reinicia su numeración: la nota (22) de la 92 sigue a la (21) de la 91. Se conservan las referencias internas tal como están impresas. La tanda 101 a 150 contiene las notas (28) a (39): la (30) comienza en la 111 y continúa en la 112 sin repetir el número. En la 139, la llamada del cuerpo dice «(1)» y la nota al pie «(37)»; se preservan ambas.
 
 El `---` de la nota al pie no es un filete de cierre de página: la hoja lleva filete al pie **y** número de página debajo. Las notas de cada archivo aclaran cuál de los dos es cuál.
 
@@ -282,9 +295,33 @@ Se conservan «en el 1876», «ofrecióles», «inapto», «construído», «Cam
 
 Las dos nuevas láminas entre 64 y 65 se clasificaron como material gráfico reservado, sin transcribir sus leyendas ni crear markdown. Se mantiene la continuidad «en años» (64) / «pasados» (65), saltando ambas láminas. Los cuatro originales de láminas se conservan sin modificaciones.
 
+### Revisión de las páginas 101 a 150
+
+Las 50 páginas nuevas se cotejaron con las fotografías completas, tres bandas superpuestas ×3 con contraste por página y detalles ×6, seguidos de la comparación final con los markdown. La tinta más oscura del margen derecho no se representa como negrita. Se conservan las erratas, los nombres, las fechas, las cifras y la puntuación del impreso.
+
+| Lectura conservada | Página | Comprobación |
+|---|---|---|
+| `Dapartmento` | 101 | detalle ×6 confirma la errata del encabezado |
+| `Andréón` | 106 | acentos conservados según el detalle; cotejo en papel pendiente |
+| `no opta` / `camión. parte` | 112 / 113 | no se corrigen la palabra ni el punto |
+| `acticidad` / `En su mayor partes` | 118 | erratas conservadas según ampliaciones |
+| `Eofelio de Dovitis` | 120 | lectura del corte `Eo-` / `felio`; pendiente confirmar en papel |
+| `1887` / `Beck y Erzog` | 123 | se preservan la fecha y el apellido, sin armonizar con la 124 |
+| `Ortíz` / `Ortiz` | 126 | se conserva la diferencia de acento entre ambas menciones |
+| `ofinas` / `exhorbitantes` / `se llamada` | 128 / 133 / 136 | erratas conservadas |
+| `Pavarín` / `Pavarin` | 131, 135 / 132, 134, 137 | se conserva el acento de cada aparición |
+| `Coïsson` / `Vinçon` | 137 | diéresis y cedilla cotejadas en detalle |
+| Llamada `(1)` y nota `(37)` | 139 | discrepancia conservada, sin renumeración |
+| `cloclos` / `Teóflio` | 140 / 142 | grafías conservadas según detalles |
+| `Ternis` / `La Helvecia` / `Artalejos` | 149 / 150 | nombres conservados según detalles |
+
+Las cuatro nuevas láminas se excluyeron del OCR y de la transcripción, sin copiar sus leyendas ni crear markdown. Se conservan sus imágenes originales. El segundo archivo del par 112–113 figura actualmente como `imagen entre 112 y 113 2.jpeg`; al comenzar la tanda se llamaba `imagen entre 112 y 133 2.jpeg`. El cambio de nombre ocurrió durante el trabajo y el contenido de la imagen es idéntico. El registro usa su nombre actual.
+
+La nota (30) continúa de la 111 a la 112. Se comprobó «y» / «el señor Humberto Gonnet» (112–113) y «establecién-» / «dose» (128–129), saltando las láminas. La 150 conserva el corte «veci-»; su continuación requiere la fotografía de la 151. La verificación de esta tanda contra el libro en papel permanece pendiente.
+
 ### Verificación contra el libro impreso
 
-Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 26 a 100 aún no tienen ese cotejo. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
+Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 26 a 150 aún no tienen ese cotejo. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
 
 ## Verificaciones pendientes
 
@@ -327,7 +364,7 @@ Lecturas seguras pero que conviene confirmar contra otra fuente (índice de cola
 | `Società di Studi Valdesi` | 22 | con acento grave en la `à`; el nombre del periódico y el de la sociedad van en redonda, los títulos de libro y las memorias en cursiva |
 | `Pantaléón Pérez` | 23 | el acento va en la segunda vocal; la forma correcta es *Pantaleón* |
 | `10 familias` / `72 personas` | 24 | las dos cuentas no se ajustan a la lista, que nombra seis grupos y 51 personas |
-| `Davyt` | 24 | apellido que no aparece en ninguna otra página transcrita; queda como dudoso |
+| `Davyt` | 24 | lectura revisada en detalle; el apellido reaparece en 109, 117 y 126, sin sustituir el cotejo propio de la 24 |
 | `Bertin` / `Berton` / `Bertinal` / `Bertinat` | 24-25 | cuatro formas del mismo apellido en dos páginas; la 24 escribe `l` y la 25 `t` |
 | `Bleyuat` | 24 | con `y` de cola, no `i`; a ×3 se lee como `u` |
 | `Pramollo` | 25 | con doble `l`; a ×3 se lee como una sola |
@@ -370,13 +407,15 @@ Para la tanda 62 a 69 y 72 a 100, además del cotejo general en papel, revisar e
 
 En las páginas 70 y 71, confirmar en papel las letras dañadas de «ofrecióles» y «fi-» / «nes» (70), el punto alto tras «une» y la o incompleta de «lo» (71). Las lecturas y la naturaleza dudosa de estas marcas se explican en las notas individuales.
 
+En las páginas 101 a 150, además del cotejo general en papel, confirmar las letras débiles al cierre de la nota (28) en la 101, los acentos de «Andréón» (106), el guion de «Gonnet-Pons» (112), «Eofelio de Dovitis» (120), las primeras letras del encabezado provincial de la 144 y las marcas excluidas junto a «Alejandro» (104), «disipando» (113), «favorable» (130), «Enrique» (135) y «con» (145). La llamada (1) frente a la nota (37) de la 139 queda registrada como discrepancia del impreso.
+
 Ninguno de estos puntos se corrige: quedan como están impresos y anotados. Los que el libro impreso ya resolvió en el cotejo en papel siguen aquí como registro histórico de la duda, no como pendiente de lectura.
 
 ## Iteraciones futuras
 
 - **Agregar páginas**: fotografías nuevas van a `imagenes del libro/`; primero se clasifican según «Láminas reservadas». Solo para páginas de texto se crea `Pagina N.md` aplicando las convenciones de arriba. Las láminas se registran y se conservan para el libro final, sin transcripción. No hay que reescribir las páginas ya transcritas.
 - **Antes de transcribir**: revisar el tipo de letra de la página (cursiva en la Introducción, redonda en el resto), si hay versalitas en el título, si hay rótulo en cursiva, si lleva notas al pie y si la foto viene rotada.
-- **Cotejo de continuidad**: al agregar páginas, verificar el último renglón de la anterior y el primero de la nueva. Quedan comprobados los enlaces «go-» / «bierno» (24-25), «em-» / «barcado» (25-26), «comprome-» / «tida» (31-32), «Ga-» / «briel» (34-35), «cose-» / «chas» (37-38), «cua-» / «dradas» (41-42), «re-» / «construída» (43-44), «práctica-» / «mente» (46-47) y «ofre-» / «cían» (47-48). La cita de Griot abre en la 41 y cierra en la 43. También quedan comprobadas la oración «cuatro años,» / «empezando con el segundo» (48-49, saltando las láminas), «pue-» / «da» (58-59), «perió-» / «dico» (59-60) y «comisio-» / «nes» (60-61). La carta iniciada en la 57 cierra en la 59. En la nueva tanda se comprobaron «com-» / «prendiendo» (62-63), «trans-» / «formación» (72-73), «Fomen-» / «to» (74-75), «co-» / «misionados» (76-77), «ca-» / «tólica» (79-80), «Cosmopo-» / «lita» (96-97), «establecie-» / «ron» (98-99) y «Ros-» / «tan» (99-100). La incorporación de 70 y 71 completa la continuidad 69–72: la 69, la 70 y la 71 cierran con párrafos completos, y la 72 abre una sección nueva. También se comprobó «en años» / «pasados» (64–65), saltando las dos láminas reservadas. **Próxima página: 101.** La 100 cierra con párrafo completo; no se anticipa el texto que falta.
+- **Cotejo de continuidad**: al agregar páginas, verificar el último renglón de la anterior y el primero de la nueva. Quedan comprobados los enlaces «go-» / «bierno» (24-25), «em-» / «barcado» (25-26), «comprome-» / «tida» (31-32), «Ga-» / «briel» (34-35), «cose-» / «chas» (37-38), «cua-» / «dradas» (41-42), «re-» / «construída» (43-44), «práctica-» / «mente» (46-47) y «ofre-» / «cían» (47-48). La cita de Griot abre en la 41 y cierra en la 43. También quedan comprobadas la oración «cuatro años,» / «empezando con el segundo» (48-49, saltando las láminas), «pue-» / «da» (58-59), «perió-» / «dico» (59-60) y «comisio-» / «nes» (60-61). La carta iniciada en la 57 cierra en la 59. En la nueva tanda se comprobaron «com-» / «prendiendo» (62-63), «trans-» / «formación» (72-73), «Fomen-» / «to» (74-75), «co-» / «misionados» (76-77), «ca-» / «tólica» (79-80), «Cosmopo-» / «lita» (96-97), «establecie-» / «ron» (98-99) y «Ros-» / «tan» (99-100). La incorporación de 70 y 71 completa la continuidad 69–72: la 69, la 70 y la 71 cierran con párrafos completos, y la 72 abre una sección nueva. También se comprobó «en años» / «pasados» (64–65), saltando las dos láminas reservadas. La 101 continúa Soriano después del párrafo completo de la 100. En la tanda 101–150 se cotejaron las continuidades entre páginas, incluidos los cortes «al-» / «guna» (106–107), «Presiden-» / «te» (115–116), «colo-» / «nos» (118–119), «ado-» / «bes» (124–125), «pro-» / «pietarios» (125–126), «Valden-» / «ses» (126–127), «establecién-» / «dose» (128–129, saltando láminas), «Bari-» / «don» (133–134), «tam-» / «bién» (134–135), «Resis-» / «tencia» (138–139), «in-» / «dumentarias» (140–141) y «pro-» / «vincial» (149–150). **Próxima página: 151.** La 150 termina en «veci-»; no se anticipa la continuación sin su fotografía.
 - **Corregir una transcripción**: si una verificación posterior resuelve una lectura dudosa, se actualiza el texto y se retira o reformula la nota correspondiente, de modo que las notas nunca contradigan el texto.
 - **Unificar el texto**: si más adelante se necesita un texto corrido sin notas ni cursivas, se puede generar aparte con un script que elimine las secciones `### Notas de transcripción` y los marcadores `*`. Esta carpeta es deliberadamente la fuente de verdad sin esa limpieza.
 - **El ODT de la raíz** es un documento aparte y de contenido mínimo; no se usó como fuente de contraste.

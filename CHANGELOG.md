@@ -5,6 +5,26 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.9.0] — 2026-10-04
+
+### Added
+- 50 fotografías fuente (`pagina 101.jpeg` a `pagina 150.jpeg`) y sus 50 transcripciones independientes con notas editoriales. Total: 144 páginas de texto (7 a 150, sin saltos).
+- Cuatro láminas reservadas para el libro final entre las páginas 112 y 113 y entre las 128 y 129 (`imagen entre 112 y 113 1.jpeg`, `imagen entre 112 y 113 2.jpeg`, `imagen entre 128 y 129 1.jpeg`, `imagen entre 128 y 129 2.jpeg`). Se conservan sin OCR, sin markdown y sin alterar la numeración; el salto del relato se coteja directamente entre la 112 y la 113 y entre la 128 y la 129.
+- Cierre del Departamento de Soriano (101) y continuación por Rivera, Treinta y Tres, Río Negro, Paysandú y Rocha: Arroyo Negro, grupos del norte, Santa Teresa y Alférez.
+- Capítulo sobre la Comisión Valdense de Colonización (114 a 122), con decreto y referencias a la inmigración desde Italia.
+- Capítulo sobre la República Argentina: San Carlos, Belgrano, Venado Tuerto, norte de Santa Fe (Alejandra, Las Garzas, El Sombrerito, Calchaquí) y Entre Ríos (Rosario Tala, San Gustavo).
+- Cierre con Córdoba, Chaco, Santiago del Estero, La Pampa y Buenos Aires (Colonia Iris y colonias vecinas).
+- Notas al pie (28) a (39), incluida la nota (30) que continúa de la 111 a la 112; se conserva la discrepancia de la 139 entre la llamada `(1)` del cuerpo y la nota `(37)` al pie.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (ocho láminas reservadas; páginas 7 a 150); estado, tipografía, cotejos, continuidad de las páginas 101–150, continuidad actualizada, láminas entre 112 y 113 y entre 128 y 129 y próximas iteraciones actualizados. La prioridad «incorporar 101 a 150» queda cerrada; próxima página 151.
+- `README.md`: tabla de estado extendida con las láminas entre 112 y 113 y entre 128 y 129 y las páginas 101 a 150; totales y continuidad actualizados a 144 páginas de texto sin saltos.
+- `Pagina 100.md`: nota de continuidad reformulada para reflejar que la 101 continúa el relato sobre Soriano.
+- `PROPOSITO.md`: nueva sección «Revisión de las páginas 101 a 150» con tabla de lecturas conservadas (`Dapartmento`, `Andréón`, `no opta`, `camión. parte`, `acticidad`, `En su mayor partes`, `Eofelio de Dovitis`, `1887`, `Beck y Erzog`, `Ortíz` / `Ortiz`, `ofinas`, `exhorbitantes`, `se llamada`, `Pavarín` / `Pavarin`, `Coïsson`, `Vinçon`, `(1)` / `(37)`, `cloclos`, `Teóflio`, `Ternis`, `La Helvecia`, `Artalejos`); erratas preservadas tal como aparecen en el impreso.
+- Cotejo de continuidad extendido con las nuevas particiones de la tanda 101–150: «al-» / «guna» (106–107), «Presiden-» / «te» (115–116), «colo-» / «nos» (118–119), «ado-» / «bes» (124–125), «pro-» / «pietarios» (125–126), «Valden-» / «ses» (126–127), «establecién-» / «dose» (128–129, saltando láminas), «Bari-» / «don» (133–134), «tam-» / «bién» (134–135), «Resis-» / «tencia» (138–139), «in-» / «dumentarias» (140–141) y «pro-» / «vincial» (149–150). La 150 conserva el corte «veci-»; la 101 continúa Soriano después del párrafo completo de la 100.
+
+---
+
 ## [v0.8.0] — 2026-10-04
 
 ### Added
