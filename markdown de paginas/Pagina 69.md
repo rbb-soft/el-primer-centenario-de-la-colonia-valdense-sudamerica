@@ -22,7 +22,7 @@ Trató además de mejorar la hacienda introduciendo animales puros y haciéndolo
 
 Fuente: `imagenes del libro/pagina 69.jpeg`
 
-- Completa «don» (68) / «David Dalmas». Cierra párrafo completo. La página 70 no está disponible: no se enlaza directamente con la 72 ni se reconstruye el tramo 70–71.
+- Completa «don» (68) / «David Dalmas». Cierra párrafo completo. La página 70, ya incorporada, continúa el relato de «Rincón del Sauce» con el fallecimiento de Tomás Bell.
 - Cuerpo y nota (17) en redonda; rótulo «Rincón del Sauce» en cursiva y llamada en redonda.
 - Se conservan la falta de comilla de cierre tras «Rincón del Sauce», el punto y coma siguiente, «quizo» con z, «Sabalsagaray» y «T. B.».
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.

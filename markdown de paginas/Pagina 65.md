@@ -18,7 +18,7 @@ Todas estas mejoras viales y la posibilidad de utilizar
 
 Fuente: `imagenes del libro/pagina 65.jpeg`
 
-- Completa «en años» (64) / «pasados». Cierra con «utilizar», cuya oración continúa con «la energía eléctrica» en la 66.
+- Completa «en años» (64) / «pasados», saltando las dos láminas reservadas entre estas páginas. Cierra con «utilizar», cuya oración continúa con «la energía eléctrica» en la 66.
 - Cuerpo en redonda, sin notas al pie. Se conservan «dió», «fué», «2.000», «1.000» y las abreviaturas «Nº» y «Km.».
 - Firma de pliego «5» en el pie izquierdo, fuera de la caja de texto: se omite del cuerpo.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.

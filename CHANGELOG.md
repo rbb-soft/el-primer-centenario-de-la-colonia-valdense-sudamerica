@@ -5,6 +5,20 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.8.0] — 2026-10-04
+
+### Added
+- Dos fotografías fuente nuevas (`pagina 70.jpeg` y `pagina 71.jpeg`) y sus transcripciones independientes con notas. Cierran el salto pendiente de la tanda anterior: total 94 páginas de texto (7 a 100, sin saltos).
+- Cierre de la sección VII «Artilleros»: «Rincón del Sauce» continúa con el fallecimiento de Tomás Bell y el rótulo en cursiva «Progreso de la colonia.»; la 71 lo continúa y cierra la sección con párrafo completo antes de la apertura de la VIII en la 72.
+- Dos láminas reservadas para el libro final entre las páginas 64 y 65 (`imagen entre 64 y 65 1.jpeg` y `imagen entre 64 y 65 2.jpeg`; la segunda está girada). Se conservan sin OCR, sin markdown y sin alterar la numeración; el salto del relato se coteja directamente entre la 64 y la 65.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (cuatro láminas reservadas; páginas 7 a 100); estado, tipografía, cotejos, continuidad de las páginas 69–72, láminas entre 64 y 65 y próximas iteraciones actualizados. La prioridad «incorporar 70 y 71» queda cerrada; próxima página 101.
+- `README.md`: tabla de estado extendida con las láminas entre 64 y 65 y las páginas 66 a 71; totales y continuidad actualizados a 94 páginas de texto sin saltos.
+- `Pagina 64.md`, `Pagina 65.md`, `Pagina 69.md` y `Pagina 72.md`: notas de continuidad reformuladas para reflejar la incorporación de las láminas entre 64 y 65 y de las páginas 70 y 71, sin oraciones ni palabras pendientes.
+
+---
+
 ## [v0.7.0] — 2026-10-04
 
 ### Added

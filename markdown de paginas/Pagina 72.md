@@ -23,7 +23,7 @@ Lo que contribuyó de un modo especial a esa trans-
 Fuente: `imagenes del libro/pagina 72.jpeg`
 
 - Abre la sección VIII; título en versalitas, numeral y cuerpo en redonda.
-- Faltan las fotografías de las páginas 70 y 71; no se reconstruye su contenido ni se establece continuidad directa de la 69 a la 72.
+- La página 71, ya incorporada, cierra «Artilleros» con párrafo completo; esta página abre una sección nueva sin palabra ni oración pendiente del folio anterior.
 - Termina con «trans-», que continúa como «formación,» en la 73.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
 - Número impreso «— 72 —».

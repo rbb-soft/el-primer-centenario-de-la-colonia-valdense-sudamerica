@@ -16,7 +16,7 @@ Por último, ha dado trabajo a cientos de familias la explotación arenera de *B
 
 Fuente: `imagenes del libro/pagina 64.jpeg`
 
-- Abre párrafo nuevo y cierra con «en años», que continúa con «pasados» en la 65.
+- Abre párrafo nuevo y cierra con «en años», que continúa con «pasados» en la 65, saltando las dos láminas entre ambas, reservadas para el libro final y excluidas de la transcripción.
 - Cuerpo en redonda; «La Calera», «Barker», «Minuano», «Sauce» y «Boca del Rosario» en cursiva según cada aparición. No se generaliza esa cursiva a otras menciones.
 - Se conservan «construído», «Lauteret», «Walikowski», «Lausarot», «Gonnet-Malan» y «Brioso-Gonnet». Sin notas al pie.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
