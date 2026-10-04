@@ -1,4 +1,4 @@
-# el-primer-centenario-de-la-colonia-valdense-sudamericaca
+# HISTORIA DE LAS COLONIAS VALDENSES EN SU PRIMER CENTENARIO (1858 - 1958)
 
 Transcripción diplomática de **«Historia de las Colonias Valdenses en su primer centenario (1858 - 1958)»**. Cada página de texto fotografiada del libro se convierte en un archivo markdown independiente, con el texto íntegro y fiel al original (incluidas sus incongruencias ortográficas, sintácticas y de puntuación). Toda lectura dudosa queda registrada en las notas del archivo, para que cualquier persona pueda verificarla contra la imagen sin releer el libro.
 
