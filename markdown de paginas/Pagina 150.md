@@ -15,7 +15,7 @@ Paulatinamente otras familias abandonaron las chacras para radicarse en Bahía B
 Fuente: `imagenes del libro/pagina 150.jpeg`
 
 - «vincial» continúa «pro-» de la 149.
-- Termina con «veci-»: se conserva el fragmento y su guion. Su continuación queda pendiente hasta contar con la fotografía de la 151.
+- Termina con «veci-»: se conserva el fragmento y su guion. La continuación «nos» de la página 151 ya está incorporada y cotejada; ambas partes forman «vecinos».
 - Se conservan «Artalejos», «ad-hoc» y las fechas abreviadas con guion.
 - Cuerpo y cita en redonda, sin título ni nota al pie.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.

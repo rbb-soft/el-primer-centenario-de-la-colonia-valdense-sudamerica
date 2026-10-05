@@ -5,6 +5,25 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.10.0] — 2026-10-04
+
+### Added
+- 50 fotografías fuente (`pagina 151.jpeg` a `pagina 200.jpeg`) y sus 50 transcripciones independientes con notas editoriales. Total: 194 páginas de texto (7 a 200, sin saltos).
+- Cierre del Capítulo II: Buenos Aires (Colonia Iris y colonias vecinas), «Los Valdenses en el Paraguay» (152) y «Los Valdenses en el Brasil» (153-154).
+- Capítulo III «Religión»: sección I «¿Qué Creen los Valdenses?» (155-159) con fórmulas latinas en cursiva; sección II «Las Iglesias» (160-200), apartado «A) En la R. O. del Uruguay», con las Iglesias de Colón (Valdense, Tarariras, Riachuelo-Estanzuela, San Pedro, Colonia y Ombúes de Lavalle) y de Colonia Cosmopolita.
+- Cuatro láminas reservadas para el libro final entre las páginas 176 y 177 y entre las 192 y 193 (`imagen entre 176 y 177 1.jpeg`, `imagen entre 176 y 177 2.jpeg`, `imagen entre 192 y 193 1.jpeg`, `imagen entre 192 y 193 2.jpeg`). Se conservan sin OCR, sin markdown y sin alterar la numeración; el salto del relato se coteja directamente entre la 176 y la 177 y entre la 192 y la 193.
+- Tres páginas que faltaban dentro de la tanda cerrada (164, 165 y 188): cierran la continuidad 163-166, completan 165 entre 164 y 166, y cierran el salto 187-189. Sus notas de continuidad se reformulan en consecuencia.
+- Notas al pie (40) y (41) del cierre del Capítulo II; el Capítulo III reinicia con (1) y (2) en la 155 y la numeración llega hasta (18) en la 199; se conserva la discrepancia de la 157 entre la llamada `(1)` del cuerpo y la nota `(3)` al pie, y la continuación de la (41) entre 151 y 152 y de la (17) entre 198 y 199 sin repetir el número.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (doce láminas reservadas; páginas 7 a 200); estado, tipografía, cotejos, continuidad de las páginas 151-200, continuidad actualizada, láminas entre 176 y 177 y entre 192 y 193, próximas iteraciones y verificaciones pendientes actualizados. La prioridad «incorporar 151 a 200» queda cerrada; próxima página 201.
+- `README.md`: tabla de estado extendida con las láminas entre 176 y 177 y entre 192 y 193 y las páginas 151 a 200; totales y continuidad actualizados a 194 páginas de texto sin saltos.
+- `Pagina 150.md`: nota de continuidad reformulada para reflejar que la continuación «nos» ya está incorporada y forma «vecinos».
+- `PROPOSITO.md`: nueva sección «Revisión de las páginas 151 a 200» con tabla de lecturas conservadas (`heróica`/`Jacinto Aráuz`, `(1)`/`(3)`, `tempo`/`Tempo`, `Armand Hugon`/`Coïsson`, `ríoplatense`/`E. D.`, `fué relegados`/`Ernestro Tron`, `C. Iris. el`/`casa del don Esteban Cesan`, `1861`/`oportuna ampliaciones`, `reune`/`acoje`, `Rocchi-Lanoir`/`Isidoro De Benedetti`, `Dominios`/`B. Carámbula`/`en las estancia`, `al pastor jubilado`/`Díaz, (14). al`, `varias dependencia`/`en cada visitas`, `Pablo Davit`/`prebisterio`); erratas y discrepancias preservadas tal como aparecen en el impreso.
+- Cotejo de continuidad extendido con las nuevas particiones de la tanda 151-200: «veci-» / «nos» (150-151), «Igle-» / «sia» (157-158), «Valden-» / «se» (170-171), «nota-» / «ble» (180-181), «re-» / «solvió» (182-183), «miem-» / «bros» (185-186), «se-» / «ñor» (191-192), «Geymonat-Caffa-» / «rel» (195-196), «Cris-» / «tiana» (196-197) y «di-» / «nero» (197-198); continuidades de 164-165 y 187-189 cerradas con las fotografías faltantes. La 200 termina en «acariciado», sin punto; falta la 201 para completar la oración.
+
+---
+
 ## [v0.9.0] — 2026-10-04
 
 ### Added
