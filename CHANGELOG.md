@@ -5,6 +5,26 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.11.0] — 2026-10-05
+
+### Added
+- 50 fotografías fuente (`pagina 201.jpeg` a `pagina 250.jpeg`) y sus 50 transcripciones independientes con notas editoriales. Total: 244 páginas de texto (7 a 250, sin saltos).
+- Cierre de la Iglesia de Ombúes de Lavalle (201) y continuación del Capítulo III, sección II «Las Iglesias», apartado «A) En la R. O. del Uruguay»: Miguelete y la obra de Cardona (202-203), Iglesia de San Salvador (204-207), Nueva Valdense y formación de la Iglesia de Río Negro (208-211), Arroyo Negro y apertura de Paysandú (212-219) y Montevideo e Iglesia Evangélica de Nueva Helvecia (220-227), con las citas de Nueva Helvecia en tipo menor, también redonda.
+- Apartado «B) En la R. Argentina» (228): Colonia Belgrano y San Carlos (228-235), cierre de Belgrano con Alejandra, El Sombrerito y apertura de Colonia Iris (236-239), Iglesia de Colonia Iris (240-247) y San Gustavo y Buenos Aires (248-250).
+- Dos láminas reservadas para el libro final entre las páginas 240 y 241 (`imagen entre 240 y 241 1.jpeg`, `imagen entre 240 y 241 2.jpeg`). Se conservan sin OCR, sin markdown y sin alterar la numeración; el salto del relato se coteja directamente entre la 240 y la 241. El nombre corregido de la primera lámina es `imagen entre 240 y 241 1.jpeg`; el anterior, `imagen entre 204 y 241 1.jpeg`, era erróneo y queda registrado en `PROPOSITO.md`.
+- Una página que faltaba dentro de la tanda cerrada (214): cierra la continuidad 213-215 y completa el relato entre Arroyo Negro y Paysandú. Sus notas de continuidad se reformulan en consecuencia.
+- Notas al pie (19) en la 211, (20) en la 237 y la larga lista de la (21) en la 238, que pasa de 1944 a 1946 y alterna «Negrin» y «Negrín»; no se completa ni se uniforma, y la llamada (21) sigue al punto de «Dios.».
+- Firmas de pliego «14», «15» y «16» de las páginas 209, 225 y 241, excluidas del cuerpo y anotadas.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (catorce láminas reservadas; páginas 7 a 250); estado, tipografía (201 a 227 y 228 a 250), inventario de fotografías (244 de texto y 258 JPEG en total), lámina corregida entre 240 y 241, cotejos, continuidad de las páginas 201-250, continuidad actualizada, próximas iteraciones y verificaciones pendientes actualizados. La prioridad «incorporar 201 a 250» queda cerrada; próxima página 251.
+- `README.md`: tabla de estado extendida con las láminas entre 240 y 241 y las páginas 201 a 250; totales, continuidad y el párrafo de las catorce láminas actualizados a 244 páginas de texto sin saltos.
+- `Pagina 200.md`: la nota de continuidad pasa a confirmar que la 201 continúa con «de que la Iglesia de Ombúes de Lavalle…», cotejado con ambas fotografías; deja de anunciarla como pendiente.
+- `PROPOSITO.md`: nueva sección «Revisión de las páginas 201 a 250» con tabla de lecturas conservadas (`Migueleta Abajo`/`Miguelete Abajo`, `la primer Capilla`/`Drabble,-`, `su- ministerio`/`y el Dolores`, `atendió la congregación al Candidato`, `par satisfacer`, `23 de abril de 1942`/`Informe de 1921`, `Coloria Balnearia Valdense`, `16 de setiembre de 1957`, `Iglecia`/`bi-mensual`, `4os.`/`E. C. E. M.`, `Francisco D. Arancho`/`Francisco Wüllich`, `Cincuentenario en 1944`/`21 de mayo de 1887`, `Bänziger`/`Mühlemann`/`Frauenverein`, `Weihmüller`/`C. Belgrano`, `El 2 de marzo`, `En sus ausencia`/`con culto dominicales`, `1934-1949`/`En el otoño 1950`, `Salvageot`/`Negrin` y `Negrín`, `eclasiásticas`/`eclasiásticamente`, `librada`/`eu 24 de diciembre`, `Alice Breeze`/`Ibetty Jourdan`/`C. Artalejos`, `Caïrus`/`Elio Maggi Pasquet`, `Commendatore`/`en ciudad de La Paz`); erratas, fechas discordantes y discrepancias de puntuación preservadas tal como aparecen en el impreso.
+- Cotejo de continuidad extendido con las nuevas particiones de la tanda 201-250: «acariciado» / «de que» (200-201), «indepen-» / «diente» (204-205), «val-» / «dense» (210-211), «Iglesia» / «Evangélica» (213-214), «val-» / «denses» (220-221), «perso-» / «nería» (222-223), «imple-» / «mentos» (224-225), «bien-» / «hechora» (229-230), «congre-» / «gación» (230-231), «Evan-» / «gelista» (231-232), «con-» / «gregación» (232-233), «Uru-» / «guay» (234-235), «rea-» / «lizó» (240-241, saltando las láminas), «en-» / «tró» (244-245) y «Bue-» / «nos Aires» (249-250). La 214 cierra con párrafo completo y la 215 continúa Paysandú; la 250 cierra con párrafo completo dentro de la sección de Buenos Aires. La verificación en papel de esta tanda permanece pendiente.
+
+---
+
 ## [v0.10.0] — 2026-10-04
 
 ### Added

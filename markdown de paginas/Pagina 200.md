@@ -22,7 +22,7 @@ Fuente: `imagenes del libro/pagina 200.jpeg`
 
 - Continúa la historia de la Iglesia de Ombúes de Lavalle; cuerpo en redonda, sin notas al pie ni destacados añadidos.
 - Se conserva la errata «prebisterio» de la primera mención y «presbiterio» en la mención siguiente, así como «construído», «Pontet Bonjour», «Fernanda Jourdan», «Pablo Davit» y «Emilio H. Ganz».
-- La página termina en «acariciado», sin punto. La oración queda pendiente de la página 201, todavía no fotografiada; no se completa por conjetura.
+- La página termina en «acariciado», sin punto, y continúa con «de que la Iglesia de Ombúes de Lavalle…» en la página 201; continuidad cotejada con ambas fotografías.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
 - Número impreso «— 200 —».
 - Lectura cotejada con la fotografía completa, tres bandas ampliadas ×3 con contraste y recortes de detalle ×6; cotejo final de la transcripción realizado. Pendiente de verificación contra el libro en papel.
