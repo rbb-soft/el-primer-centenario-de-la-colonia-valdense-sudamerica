@@ -5,6 +5,28 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.12.0] — 2026-10-06
+
+### Added
+- 50 fotografías fuente (`pagina 251.jpeg` a `pagina 300.jpeg`) y sus 50 transcripciones independientes con notas editoriales. Total: 294 páginas de texto (7 a 300, sin saltos).
+- Cierre de Buenos Aires y apertura de «III / Organización de la Iglesia Valdense» (251-258), con la organización de la Iglesia y las actividades del Distrito.
+- Capítulo IV «Instrucción» (259-282): primeras escuelas de Colonia Valdense (259-266), escuelas de las demás colonias y de la República Argentina (267-273) y el Liceo de Colonia Valdense, con su fundación y desarrollo (274-282).
+- Capítulo V «Vida Cultural y Religiosa» (283-300): «A) Cultura religiosa» con los cursos preparatorios (283-290), «B) Cultura General» con bibliotecas, francés y conferencias (291-293) y «C) Cultura Musical» con canto, coros, fiestas, conciertos y bandas (294-300).
+- Cuatro láminas reservadas para el libro final entre las páginas 256 y 257 (`imagen entre 256 y 257 1.jpeg` a `imagen entre 256 y 257 4.jpeg`): una fotografía y tres mapas. Se conservan sin OCR, sin markdown y sin alterar la numeración; el salto del relato se coteja directamente entre la 256 y la 257. El grupo suma cuatro láminas a las catorce anteriores: dieciocho en total.
+- El cuadro de la 253 se representa con dos columnas y sus encabezados en cursiva; conserva tres veces «elije».
+- Notas al pie de la tanda: (22) en la 252 y (23) en la 258; el Capítulo IV reinicia con (1) en la 261 y llega hasta (6) en la 283, y el Capítulo V reinicia con (1) en la 285. La (5) de la 282 conserva íntegra la cita con sus erratas. No se automatiza ni se armoniza la numeración.
+- Firmas de pliego «17», «18» y «19» de las páginas 257, 273 y 289, excluidas del cuerpo y anotadas.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (dieciocho láminas reservadas; páginas 7 a 300); estado, láminas reservadas (nuevo grupo 256-257 con su orden 1 → 2 → 3 → 4 y su registro girado), inventario (294 fotografías de texto y 312 JPEG en total), notas al pie, método de verificación, revisión de la tanda, verificaciones pendientes e iteraciones futuras actualizados. La prioridad «incorporar 251 a 300» queda cerrada; próxima página 301.
+- `README.md`: tabla de estado extendida con las láminas entre 256 y 257 y las páginas 251 a 300; sección «Versión» actualizada a v0.12.0; totales, continuidad y el párrafo de las dieciocho láminas actualizados a 294 páginas de texto sin saltos.
+- `Pagina 250.md`: la nota de continuidad deja de anunciar la fotografía de la 251 como pendiente y registra que la 251 continúa y cierra la sección de Buenos Aires antes de abrir «III / Organización de la Iglesia Valdense».
+- La página 260 se transcribe con la fuente corregida por el propietario, `pagina 260.jpeg`; con ella se confirman los nombres «Angroña» y «Enrique Felix».
+- `PROPOSITO.md`: nueva sección «Revisión de las páginas 251 a 300» con tabla de lecturas conservadas (`las Iglesias Valdenses de la Conferencia denominada`, `Organos`/`elije`, `Lantaret`/`Radiotrasmisiones`, `distintas- denominaciones`, `Angroña`/`Enrique Felix`, `subsanarla toda costa`, `Muston`/`Allío`/`andamiento`, `Williman`/`Gratwolt`, `canonnier'`/`canonnier`/`Stëve`, `Jerah Jourdan`, `Elena Jourdan Pons`/`Fanetti`, `heróicos`/`Su primer maestra`/`Epoca heróica`, `lecciones modelos`/`agrícola comercial`, `Con el año 1890`/`la primer Comisión`, `Andreon`/`la primer médica`, `uno de las actos`/`espectativa`/`a mucho núcleos`, `Stazeski`/`a una 2.300 niños`, `infancia . hasta`, `exíguos`/`oir`/`Sud Americana`, `La Jeune Ménagère`/`Muchas colonos`, `alguns voces`/`disertacionss`/`trasmitida`, `Angel Budetti`/`Häberli`); erratas, grafías y discrepancias preservadas tal como aparecen en el impreso.
+- Cotejo de continuidad extendido con las nuevas particiones de la tanda 251-300: «Confe-» / «rencia» (252-253), «Gene-» / «ral» (258-259), «antepasa-» / «dos» (259-260), «pri-» / «maria» (261-262), «funcio-» / «na» (263-264), «te-» / «nía» (268-269), «po-» / «dían» (274-275), «oportu-» / «nidad» (275-276), «aprove-» / «chó» (276-277), «Departamen-» / «tal» (278-279), «des-» / «de» (280-281), «con-» / «serva» (283-284), «man-» / «tuvo» (284-285), «ma-» / «duro» (289-290), «im-» / «partía» (291-292), «especial-» / «mente» (294-295) y «favore-» / «ciendo» (297-298), además de «algunos» / «fondos» (256-257) saltando las cuatro láminas. La cita musical de la 294 cierra en la 295; el reglamento de 299-300 no muestra cierre de comillas y no se añade. La 300 termina con «Rodolfo Reich,», dentro de una oración que espera la fotografía 301. La verificación en papel de esta tanda permanece pendiente.
+
+---
+
 ## [v0.11.0] — 2026-10-05
 
 ### Added

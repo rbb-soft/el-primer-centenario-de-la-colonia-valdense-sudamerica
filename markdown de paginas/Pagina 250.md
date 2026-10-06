@@ -19,7 +19,7 @@ Fuente: `imagenes del libro/pagina 250.jpeg`
 - Cuerpo en redonda; las variaciones de impresión no se representan como negrita.
 - Se cotejan los nombres Bruno Corsani, Mirella Comba y J. Alberto Soggin, y las fechas impresas 1946, 1951, 1952 y 1953.
 - «nos Aires» continúa el corte «Bue-» de la página 249.
-- La página cierra con párrafo completo; la continuación de la sección queda pendiente de la fotografía de la página 251.
+- La página cierra con párrafo completo; la 251 continúa y cierra la sección de Buenos Aires antes de abrir «III / Organización de la Iglesia Valdense».
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
 - Número impreso «— 250 —».
 - Lectura cotejada con la fotografía completa, tres bandas ampliadas ×3 con contraste y recortes de detalle ×6; cotejo final de la transcripción realizado. Pendiente de verificación contra el libro en papel.

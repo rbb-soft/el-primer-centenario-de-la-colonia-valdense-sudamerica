@@ -10,7 +10,7 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.11.0
+v0.12.0
 
 ## Estado
 
@@ -71,8 +71,16 @@ v0.11.0
 | Láminas entre 240 y 241 (1 y 2) | imágenes para el libro final | conservadas; excluidas de la transcripción |
 | 241 a 247 | Iglesia de Colonia Iris y apertura de San Gustavo | transcritas y cotejadas con fotografías |
 | 248 a 250 | San Gustavo y Buenos Aires | transcritas y cotejadas con fotografías |
-| 251 en adelante | — | sin fotografiar |
+| 251 a 258 | Cierre de Buenos Aires; organización de la Iglesia Valdense y actividades del Distrito | transcritas y cotejadas con fotografías |
+| Láminas entre 256 y 257 (1 a 4) | una lámina fotográfica y tres mapas para el libro final | conservadas; excluidas de la transcripción |
+| 259 a 266 | Capítulo IV: Instrucción; primeras escuelas de Colonia Valdense | transcritas y cotejadas con fotografías |
+| 267 a 274 | Escuelas de las demás colonias y de Argentina; apertura del Liceo de Colonia Valdense | transcritas y cotejadas con fotografías |
+| 275 a 282 | Formación, fundación y desarrollo del Liceo | transcritas y cotejadas con fotografías |
+| 283 a 290 | Cierre del Liceo; Capítulo V, cultura religiosa y cursos preparatorios | transcritas y cotejadas con fotografías |
+| 291 a 293 | Cultura general: bibliotecas, francés y conferencias | transcritas y cotejadas con fotografías |
+| 294 a 300 | Cultura musical: canto, coros, fiestas, conciertos y bandas | transcritas y cotejadas con fotografías |
+| 301 en adelante | — | sin fotografiar |
 
-Hay 244 páginas de texto transcritas, de la 7 a la 250 sin saltos. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 250 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La tanda 201–250 incluye la página 214 incorporada durante el trabajo: quedaron comprobadas las continuidades «acariciado» / «de que» (200–201), «Iglesia» / «Evangélica» (213–214) y «rea-» / «lizó» (240–241), saltando las láminas. La siguiente página a incorporar es la 251; la 250 cierra con párrafo completo dentro de la sección de Buenos Aires.
+Hay 294 páginas de texto transcritas, de la 7 a la 300 sin saltos. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 300 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La tanda 251–300 incorpora 50 páginas de texto y cuatro láminas reservadas. Se comprobó la continuidad «algunos» / «fondos» (256–257), saltando esas cuatro láminas, y se usa la fuente corregida `pagina 260.jpeg`. La siguiente página a incorporar es la 301; la 300 termina con «Rodolfo Reich,», dentro de una oración que continúa. El inventario contiene 312 JPEG: 294 páginas de texto y 18 láminas.
 
-**Las catorce láminas entre 48 y 49, 64 y 65, 112 y 113, 128 y 129, 176 y 177, 192 y 193 y 240 y 241 (dos por ubicación) se reservan para la confección del libro final.** Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y el orden 1 → 2 de cada par. El nombre corregido de la primera lámina del último par es `imagen entre 240 y 241 1.jpeg`. Esta regla y los catorce nombres exactos están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.
+**Las dieciocho láminas se reservan para la confección del libro final:** dos por ubicación entre 48 y 49, 64 y 65, 112 y 113, 128 y 129, 176 y 177, 192 y 193 y 240 y 241, más cuatro entre 256 y 257. Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y el orden 1 → 2 de cada par y 1 → 2 → 3 → 4 del nuevo grupo. El nombre corregido de la primera lámina entre 240 y 241 es `imagen entre 240 y 241 1.jpeg`. Esta regla y los dieciocho nombres exactos están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.
