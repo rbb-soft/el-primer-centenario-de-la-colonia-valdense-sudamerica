@@ -5,6 +5,32 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.13.0] — 2026-10-07
+
+### Added
+- 78 fotografías fuente (`pagina 01.jpeg`, `pagina 03.jpeg`, `pagina 05.jpeg`, `pagina 301.jpeg` a `pagina 371.jpeg` y `pagina 375.jpeg` a `pagina 378.jpeg`) y sus 78 transcripciones independientes con notas editoriales. Total: 372 fotografías de texto, todas con su markdown.
+- Preliminares: anteportada (1), portada (3) y presentación de la Comisión Pro Festejos (5), con la jerarquía de renglones y las versalitas del impreso; el escudo de la portada se reserva como elemento gráfico para la composición final.
+- Cierre de cultura musical (301-302) y nuevos apartados del Capítulo V: «D) Cultura Física» (302), «E) Cultura Valdense» (304) y «F) Periódicos» (308).
+- Capítulo VI «Vida Social» (313-337): antiguas costumbres, uniones cristianas, ligas femeninas, campamento y beneficencia.
+- Capítulo VII «Actividades Industriales» (338-360), con listas de nombres en redonda y rótulos en cursiva.
+- Capítulo VIII «El Sentimiento de Patria» (360-366), con la apertura de capítulo repartida en varios renglones.
+- Conclusión (367-371), en cuerpo cursiva con el título, las cifras y los signos de referencias bíblicas en redonda.
+- Índice (375-378): entradas y números de página transcritos literalmente, con tablas para sus columnas y registro de la sustitución de los puntos guía. Sus números no se usan para corregir títulos, nombres ni paginación del cuerpo.
+- Una lámina reservada entre las páginas 4 y 5 (`imagen entre 4 y 5.jpeg`), única en los preliminares: se conserva sin OCR, sin markdown y sin alterar la numeración. El total de láminas reservadas sube de dieciocho a **diecinueve**.
+- `Pagina 373.md`: única página de título del tramo final, con fuente humana explícita del propietario (7 de octubre de 2026) y sus limitaciones documentadas. No se le atribuye cotejo fotográfico; mayúsculas, tilde y tipografía de «indice» quedan pendientes.
+- Documentación de las cinco páginas en blanco —2, 4, 6, 372 y 374— según la indicación del propietario, con regla permanente: no generan markdown vacío, no son fuentes faltantes ni láminas y conservan su lugar en la paginación final.
+- Notas al pie de la tanda: el Capítulo VI conserva (1) en la 317 y (2) en la 334; el VII reinicia con (1) en la 340 y llega hasta (6) en la 356. No se automatiza ni se armoniza la numeración.
+- Firmas de pliego «20» (305), «21» (321), «22» (337), «23» (353) y «24» (369), excluidas del cuerpo y anotadas.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado (diecinueve láminas; páginas 1, 3, 5, 7-371 y 375-378); estado, láminas reservadas (nueva lámina entre 4 y 5 en el registro), inventario (391 JPEG: 372 fotografías de texto y 19 láminas), tipografía (preliminares, Capítulos V a VIII, Conclusión, 373 e índice), notas al pie, convenciones, estructura de archivos, método de verificación, verificaciones pendientes e iteraciones futuras actualizados. Nueva sección «Inventario completo, páginas en blanco y título de la 373». La prioridad «incorporar 301 en adelante» queda cerrada: el cuerpo termina en la 371 y el índice ocupa 375-378.
+- `README.md`: tabla de estado extendida con los preliminares, las páginas en blanco, la lámina entre 4 y 5, la 373 y el tramo 301-378; sección «Versión» actualizada a v0.13.0; totales, verificación, continuidad y el párrafo de las diecinueve láminas actualizados.
+- `Pagina 300.md`: la nota de continuidad deja de anunciar la fotografía 301 como pendiente y registra que la oración «Rodolfo Reich,» continúa con «lo contrataron» en la 301, cotejado con la fotografía incorporada.
+- `PROPOSITO.md`: nueva sección «Revisión de los preliminares y las páginas 301 a 378» con tabla de lecturas conservadas (`Lausarot`/`eclasiástica`/`controlorearlos`, `y y`, `Las dechaladas`/`Las deschaladas`, `purtâ la cavanâ`/`fêsta côrinoira`/`züpa`, `Congrego`, `Coïson`/`Allío`/`ahinco`, `Mc. Cormik`/`colonos valdensesing`/`volúmen`, `Joaquín Suáre`, `Valdense. desde`, `idiosincracia`/`instruído`, `emancipación`/`Estanzuela`); erratas, grafías y diacríticos preservados tal como aparecen en el impreso.
+- Cotejo de continuidad extendido con las nuevas particiones de la tanda 301-378: «for-» / «mar» (301-302), «gas-» / «tos» (302-303), «bas-» / «quet-ball» (303-304), «jóve-» / «nes» (320-321), «des-» / «empeñarse» (327-328), «dedica-» / «ción» (336-337), «domés-» / «ticos» (338-339), «gestionan-» / «do» (342-343), «car-» / «pintería» (347-348), «confian-» / «za» (352-353), «autoriza-» / «ción» (357-358), «naci-» / «miento» (362-363), «ciuda-» / «danos» (365-366) y «predi-» / «caran» (367-368), además de «Rodolfo Reich,» / «lo contrataron» (300-301) y la cita iniciada en la 340 que continúa en la 341. La verificación en papel de esta tanda permanece pendiente.
+
+---
+
 ## [v0.12.0] — 2026-10-06
 
 ### Added

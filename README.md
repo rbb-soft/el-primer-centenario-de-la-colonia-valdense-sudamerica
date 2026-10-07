@@ -10,13 +10,18 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 ## Versión
 
-v0.12.0
+v0.13.0
 
 ## Estado
 
 | Páginas | Contenido | Estado |
 |---|---|---|
-| 1 a 6 | preliminares, índice y prólogo | sin fotografiar |
+| 1 | Anteportada | transcrita y cotejada con fotografía |
+| 2 y 4 | Páginas en blanco | registradas según el propietario; sin markdown |
+| 3 | Portada | transcrita y cotejada con fotografía |
+| Lámina entre 4 y 5 | imagen para el libro final | conservada; excluida de la transcripción |
+| 5 | Presentación de la Comisión Pro Festejos | transcrita y cotejada con fotografía |
+| 6 | Página en blanco | registrada según el propietario; sin markdown |
 | 7 a 10 | Introducción | transcritas y verificadas |
 | 11 a 16 | Preámbulo | transcritas y verificadas |
 | 17 a 20 | Capítulo I: sección I «El problema de la emigración» y comienzo de la sección II «Primera emigración» | transcritas y verificadas |
@@ -79,8 +84,19 @@ v0.12.0
 | 283 a 290 | Cierre del Liceo; Capítulo V, cultura religiosa y cursos preparatorios | transcritas y cotejadas con fotografías |
 | 291 a 293 | Cultura general: bibliotecas, francés y conferencias | transcritas y cotejadas con fotografías |
 | 294 a 300 | Cultura musical: canto, coros, fiestas, conciertos y bandas | transcritas y cotejadas con fotografías |
-| 301 en adelante | — | sin fotografiar |
+| 301 a 303 | Cierre de cultura musical y apertura de «D) Cultura Física» | transcritas y cotejadas con fotografías |
+| 304 a 307 | «E) Cultura Valdense» | transcritas y cotejadas con fotografías |
+| 308 a 312 | «F) Periódicos» | transcritas y cotejadas con fotografías |
+| 313 a 337 | Capítulo VI: Vida Social | transcritas y cotejadas con fotografías |
+| 338 a 360 | Capítulo VII: Actividades Industriales | transcritas y cotejadas con fotografías |
+| 360 a 366 | Capítulo VIII: El Sentimiento de Patria | transcritas y cotejadas con fotografías |
+| 367 a 371 | Conclusión | transcritas y cotejadas con fotografías |
+| 372 y 374 | Páginas en blanco | registradas según el propietario; sin markdown |
+| 373 | Título «indice», centrado vertical y horizontalmente | registrado según el propietario; pendiente de cotejo tipográfico |
+| 375 a 378 | Índice | transcritas y cotejadas con fotografías |
 
-Hay 294 páginas de texto transcritas, de la 7 a la 300 sin saltos. Las páginas 7 a 25 fueron cotejadas contra el libro en papel, además del cotejo con las fotografías. Las páginas 26 a 300 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La tanda 251–300 incorpora 50 páginas de texto y cuatro láminas reservadas. Se comprobó la continuidad «algunos» / «fondos» (256–257), saltando esas cuatro láminas, y se usa la fuente corregida `pagina 260.jpeg`. La siguiente página a incorporar es la 301; la 300 termina con «Rodolfo Reich,», dentro de una oración que continúa. El inventario contiene 312 JPEG: 294 páginas de texto y 18 láminas.
+La transcripción llega hasta la página 378: hay **373 archivos markdown**, correspondientes a 372 páginas fotografiadas y al título de la 373 descrito por el propietario. Las páginas **2, 4, 6, 372 y 374 están en blanco**, según su indicación del 7 de octubre de 2026; no se crean archivos vacíos ni se renumeran las demás páginas. La 373 contiene únicamente «indice», centrado en ambos ejes; su grafía y tipografía impresas quedan pendientes de comprobación. El inventario contiene **391 JPEG: 372 páginas de texto y 19 láminas**.
 
-**Las dieciocho láminas se reservan para la confección del libro final:** dos por ubicación entre 48 y 49, 64 y 65, 112 y 113, 128 y 129, 176 y 177, 192 y 193 y 240 y 241, más cuatro entre 256 y 257. Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y el orden 1 → 2 de cada par y 1 → 2 → 3 → 4 del nuevo grupo. El nombre corregido de la primera lámina entre 240 y 241 es `imagen entre 240 y 241 1.jpeg`. Esta regla y los dieciocho nombres exactos están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.
+Las páginas 7 a 25 fueron cotejadas contra el libro en papel. Las páginas 1, 3, 5, 26 a 371 y 375 a 378 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La última tanda incorpora 78 fotografías de texto, la página 373 según la descripción del propietario y una lámina entre 4 y 5. La oración final de la 300, «Rodolfo Reich,», continúa con «lo contrataron» en la 301; la Conclusión termina en la 371 y el índice ocupa las páginas 375 a 378.
+
+**Las diecinueve láminas se reservan para la confección del libro final:** una entre 4 y 5, dos por ubicación entre 48 y 49, 64 y 65, 112 y 113, 128 y 129, 176 y 177, 192 y 193 y 240 y 241, más cuatro entre 256 y 257. Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y el orden 1 → 2 de cada par y 1 → 2 → 3 → 4 del nuevo grupo. El nombre corregido de la primera lámina entre 240 y 241 es `imagen entre 240 y 241 1.jpeg`. Esta regla y los diecinueve nombres exactos están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.

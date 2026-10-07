@@ -24,7 +24,7 @@ Fuente: `imagenes del libro/pagina 300.jpeg`
 
 - Continúa la cita del reglamento de la 299 con el artículo 25º y tres puntos espaciados; no se añade una comilla de cierre ausente del impreso.
 - Se conserva «Angel» sin tilde (verificado en detalle), «dió», «Alí» y la diéresis de «Häberli».
-- Termina con «Rodolfo Reich,», oración que debe continuar en la 301; esa fotografía aún no está disponible.
+- Termina con «Rodolfo Reich,», oración continuada en la 301 con «lo contrataron». Continuidad cotejada con la fotografía incorporada.
 - Se resuelven las particiones internas de renglón; se conserva la puntuación y la ortografía del impreso.
 - Número impreso «— 300 —».
 - Lectura cotejada con la fotografía completa, tres bandas ampliadas ×3 con contraste y recortes de detalle ×6; cotejo final de la transcripción realizado. Pendiente de verificación contra el libro en papel.
