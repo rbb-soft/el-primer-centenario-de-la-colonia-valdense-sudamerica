@@ -55,7 +55,7 @@ La tanda 251–300 cierra Buenos Aires y abre «III / Organización de la Iglesi
 
 La tanda final incorpora las páginas 1, 3, 5, 301–371 y 375–378: 78 fotografías de texto y una lámina entre 4 y 5. La 302 abre «D) Cultura Física»; la 304, «E) Cultura Valdense»; y la 308, «F) Periódicos». La 313 abre el Capítulo VI, «Vida Social», con antiguas costumbres, uniones cristianas, ligas femeninas, campamento y beneficencia. La 338 abre el Capítulo VII, «Actividades Industriales», y la 360 el VIII, «El Sentimiento de Patria». La Conclusión ocupa 367–371. Las páginas 372 y 374 están en blanco; la 373 es el título centrado «indice», y las 375–378 contienen el índice.
 
-Las páginas **7 a 25** están verificadas contra el libro en papel. Las **1, 3, 5, 26 a 371 y 375 a 378** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. La 373 tiene fuente humana explícita y requiere comprobar su grafía y tipografía; no se presenta como cotejada con una fotografía.
+Las páginas **7 a 143** están verificadas contra el libro en papel. Las **1, 3, 5, 144 a 371 y 375 a 378** fueron cotejadas con las fotografías completas, bandas ampliadas y recortes de detalle; **su verificación en papel sigue pendiente**. La 373 tiene fuente humana explícita y requiere comprobar su grafía y tipografía; no se presenta como cotejada con una fotografía.
 
 ### Láminas reservadas para la confección del libro final
 
@@ -509,7 +509,11 @@ Se comprobaron las continuidades de oración, desde «Rodolfo Reich,» / «lo co
 
 ### Verificación contra el libro impreso
 
-Además del cotejo con las fotografías, **las páginas 7 a 25 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto. Las páginas 1, 3, 5, 26 a 371 y 375 a 378 aún no tienen ese cotejo. La 373 requiere comprobar la grafía y tipografía del único título descrito por el propietario. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
+Además del cotejo con las fotografías, **las páginas 7 a 143 fueron verificadas contra el libro en papel**, página a página, por el propietario del proyecto, que realizó la lectura con el visor de cotejo y dejó cada página marcada como «Revisada» en `visor/datos/revision.json`: ese registro cubre de la 7 a la 142 y conserva la 143 como última página leída. Ninguna de esas páginas quedó con observaciones. Las páginas 1, 3, 5, 144 a 371 y 375 a 378 aún no tienen ese cotejo. La 373 requiere comprobar la grafía y tipografía del único título descrito por el propietario. Esa verificación es la que cierra cada página: donde una lectura quedó anotada como dudosa por la imagen pero el papel la resuelve, prevalece el papel y la nota se reformula.
+
+En este tramo el papel resolvió una lectura: en la 63, «el Gobieron dió» se transcribe como «el Gobierno dió». Esa corrección ya está en el texto de `Pagina 63.md`.
+
+**Tarea pendiente de reformulación de notas.** Las notas de las páginas 26 a 143 conservan todavía el marcador «Pendiente de verificación contra el libro en papel» con que termina cada transcripción, y la de la 63 sigue mencionando «Gobieron» entre las grafías preservadas, aunque el texto ya lo corrige. Esa actualización corresponde al propietario, que tiene el papel delante: al hacerse, se aplican las reglas de «Verificaciones pendientes» y se resuelve cada punto allí listado para las páginas afectadas, de modo que **las notas nunca contradigan el texto**. Hasta entonces, el alcance real del cotejo en papel es el que fija esta sección y no el marcador de cada nota.
 
 ## Verificaciones pendientes
 

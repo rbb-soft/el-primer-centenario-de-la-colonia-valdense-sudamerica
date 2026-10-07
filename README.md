@@ -12,11 +12,11 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 Para leer y comprobar el libro, abre **`Abrir visor.desktop`** con doble clic desde esta carpeta; si el explorador lo pide, permite su ejecución. También puedes usar `Abrir visor.command`. El visor muestra el Markdown a la izquierda y la fotografía a la derecha, con navegación, zoom, notas y un registro de revisión por página. Funciona localmente y sin conexión con Python y el navegador.
 
-El avance y las observaciones se guardan en `visor/datos/revision.json`, por separado de las transcripciones. Los cinco blancos y el título de la 373 se presentan con sus excepciones documentadas; las láminas siguen reservadas para la composición final. Consulta [la guía del visor](./visor/README.md) para abrirlo, revisar y descargar una copia del registro.
+El avance y las observaciones se guardan en `visor/datos/revision.json`, por separado de las transcripciones. A la fecha contiene el cotejo en papel de las páginas 7 a 143: de la 7 a la 142 marcadas como «Revisada», sin observaciones, y la 143 como última página leída. Los cinco blancos y el título de la 373 se presentan con sus excepciones documentadas; las láminas siguen reservadas para la composición final. Consulta [la guía del visor](./visor/README.md) para abrirlo, revisar y descargar una copia del registro.
 
 ## Versión
 
-v0.14.0
+v0.14.1
 
 ## Estado
 
@@ -103,6 +103,6 @@ v0.14.0
 
 La transcripción llega hasta la página 378: hay **373 archivos markdown**, correspondientes a 372 páginas fotografiadas y al título de la 373 descrito por el propietario. Las páginas **2, 4, 6, 372 y 374 están en blanco**, según su indicación del 7 de octubre de 2026; no se crean archivos vacíos ni se renumeran las demás páginas. La 373 contiene únicamente «indice», centrado en ambos ejes; su grafía y tipografía impresas quedan pendientes de comprobación. El inventario contiene **391 JPEG: 372 páginas de texto y 19 láminas**.
 
-Las páginas 7 a 25 fueron cotejadas contra el libro en papel. Las páginas 1, 3, 5, 26 a 371 y 375 a 378 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. La última tanda incorpora 78 fotografías de texto, la página 373 según la descripción del propietario y una lámina entre 4 y 5. La oración final de la 300, «Rodolfo Reich,», continúa con «lo contrataron» en la 301; la Conclusión termina en la 371 y el índice ocupa las páginas 375 a 378.
+Las páginas 7 a 143 fueron cotejadas contra el libro en papel. Las páginas 1, 3, 5, 144 a 371 y 375 a 378 están revisadas contra las fotografías y sus ampliaciones; su cotejo en papel queda pendiente. En ese tramo el papel resolvió una lectura: la 63 dice «el Gobierno dió», y no «Gobieron». Las notas de las páginas 26 a 143 conservan por ahora el marcador «Pendiente de verificación contra el libro en papel»; su reformulación corresponde al propietario y está pendiente. La última tanda incorpora 78 fotografías de texto, la página 373 según la descripción del propietario y una lámina entre 4 y 5. La oración final de la 300, «Rodolfo Reich,», continúa con «lo contrataron» en la 301; la Conclusión termina en la 371 y el índice ocupa las páginas 375 a 378.
 
 **Las diecinueve láminas se reservan para la confección del libro final:** una entre 4 y 5, dos por ubicación entre 48 y 49, 64 y 65, 112 y 113, 128 y 129, 176 y 177, 192 y 193 y 240 y 241, más cuatro entre 256 y 257. Durante la transcripción no se procesan con OCR, no se transcriben sus leyendas ni se crean markdown para ellas. Se conservan los originales y el orden 1 → 2 de cada par y 1 → 2 → 3 → 4 del nuevo grupo. El nombre corregido de la primera lámina entre 240 y 241 es `imagen entre 240 y 241 1.jpeg`. Esta regla y los diecinueve nombres exactos están documentados en [`PROPOSITO.md`](./PROPOSITO.md#láminas-reservadas-para-la-confección-del-libro-final) para todas las iteraciones futuras.

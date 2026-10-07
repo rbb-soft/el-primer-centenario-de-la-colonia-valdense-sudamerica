@@ -5,6 +5,18 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.14.1] — 2026-10-07
+
+### Changed
+- `visor/datos/revision.json`: el registro de la lectura de cotejo pasa de las páginas 7 a 16 a las páginas 7 a 142, las 136 en estado «Revisada» y sin observaciones; la última página leída queda en la 143.
+- `PROPOSITO.md`: el cotejo contra el libro en papel se extiende de las páginas 7-25 a las **7-143**. Se actualizan el estado del proyecto y la sección «Verificación contra el libro impreso», con el alcance del registro del visor (7-142 «Revisada», 143 última leída, ninguna observación) y las páginas que siguen pendientes (1, 3, 5, 144-371 y 375-378, más la grafía y tipografía del título de la 373). Nueva «tarea pendiente de reformulación de notas»: las notas de las páginas 26 a 143 conservan el marcador «Pendiente de verificación contra el libro en papel» y la de la 63 sigue nombrando «Gobieron» entre las grafías preservadas; su corrección corresponde al propietario y se rige por la regla de que las notas nunca contradigan el texto.
+- `README.md`: sección «Visor de cotejo» con el estado actual del registro; párrafo de verificación con el cotejo en papel hasta la 143, la corrección de la 63 y la reforma pendiente de las notas; sección «Versión» actualizada a v0.14.1.
+
+### Fixed
+- `Pagina 63.md`: «el Gobieron dió» se transcribe como «el Gobierno dió», conforme al cotejo contra el libro en papel.
+
+---
+
 ## [v0.14.0] — 2026-10-07
 
 ### Added

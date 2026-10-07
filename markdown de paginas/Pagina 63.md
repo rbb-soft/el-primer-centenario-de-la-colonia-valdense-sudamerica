@@ -6,7 +6,7 @@ Como el elemento alboratador que poblaba la región hizo oposición a la reparti
 
 Tan pronto como la Sociedad Colonizadora puso en venta los terrenos fraccionados afluyeron familias de C. Valdense y otras recientemente llegadas de Italia de manera que, a fines del año 1882, ya había 54 familias Valdenses todas establecidas entre el camino nacional y el Río de la Plata.
 
-En ese mismo año el Gobieron dió un nuevo impulso a la obra colonizadora de esa región comprando las propiedades de don Carlos Becu y de los herederos Carassale de cuya venta fué encargado el Pastor Daniel Armand Ugon según consta en el capítulo anterior. Desde entonces la colonia creció con rapidez extendiéndose también en la parte situada al norte del camino nacional y ocupando otras fracciones linderas.
+En ese mismo año el Gobierno dió un nuevo impulso a la obra colonizadora de esa región comprando las propiedades de don Carlos Becu y de los herederos Carassale de cuya venta fué encargado el Pastor Daniel Armand Ugon según consta en el capítulo anterior. Desde entonces la colonia creció con rapidez extendiéndose también en la parte situada al norte del camino nacional y ocupando otras fracciones linderas.
 
 Desde 1883, algunas familias valdenses arrendaron campo entre los arroyos Pichinango y Colla. Tan sólo en 1912, al venderse la Estancia "Santa Amalia", situada entre los arroyos Pichinango y Polonia, por el señor Santiaga Caprario, se hicieron propietarios allí Miguel Lageard y Esteban Armand Ugon.
 
