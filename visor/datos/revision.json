@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "book": "colonias-valdenses-1858-1958",
+  "last_page": 17,
+  "pages": {
+    "7": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:36:36.454707+00:00"
+    },
+    "8": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:38:45.010136+00:00"
+    },
+    "9": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:41:22.951994+00:00"
+    },
+    "10": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:43:58.205670+00:00"
+    },
+    "11": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:45:51.508422+00:00"
+    },
+    "12": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T16:48:47.433082+00:00"
+    },
+    "13": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T17:00:47.127553+00:00"
+    },
+    "14": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T17:03:46.965074+00:00"
+    },
+    "15": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T17:06:04.729417+00:00"
+    },
+    "16": {
+      "status": "revisada",
+      "notes": "",
+      "version": 1,
+      "updated": "2026-10-07T17:08:25.736807+00:00"
+    }
+  }
+}

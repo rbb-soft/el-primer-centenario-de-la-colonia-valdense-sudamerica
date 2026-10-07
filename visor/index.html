@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuaderno de cotejo · Colonias Valdenses</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/estilos.css">
+  <script src="/vendor/marked.umd.js" defer></script>
+  <script src="/vendor/purify.min.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#texto">Ir al texto del libro</a>
+  <header class="masthead">
+    <div class="identity"><span class="book-sign" aria-hidden="true">CV</span><div><p class="eyebrow">COLONIAS VALDENSES · 1858–1958</p><h1>Cuaderno de cotejo</h1></div></div>
+    <div class="reading-progress"><span id="progressLabel">Preparando el libro…</span><progress id="progress" value="0" max="373" aria-label="Páginas revisadas"></progress></div>
+    <button class="quiet" id="helpButton">Ayuda</button>
+  </header>
+  <nav class="navigation" aria-label="Navegación del libro">
+    <button id="pagesButton" class="quiet">☷ <span>Páginas</span></button>
+    <div class="page-nav"><button id="previous" aria-label="Página anterior" title="Página anterior (flecha izquierda)">←</button><form id="pageForm"><label for="pageNumber">Página</label><input id="pageNumber" type="number" min="1" max="378" value="1" inputmode="numeric"><span id="pageTotal">/ 378</span><button class="quiet compact" type="submit">Ir</button></form><button id="next" aria-label="Página siguiente" title="Página siguiente (flecha derecha)">→</button></div>
+    <span id="sectionName" class="section-name">Preliminares</span>
+    <div class="review-actions"><span id="pageStatus" class="status">Pendiente</span><button id="markReviewed" class="primary">✓ Marcar revisada</button><button id="reviewButton" class="quiet">Observaciones</button></div>
+  </nav>
+  <div id="notice" class="notice" role="status" hidden><span id="noticeText"></span><button id="retryButton" class="quiet" hidden>Reintentar</button></div>
+  <main class="comparison" id="comparison">
+    <section class="text-panel" aria-labelledby="textTitle">
+      <div class="panel-bar"><div><span class="panel-number">01</span><h2 id="textTitle">Transcripción</h2></div><div class="small-controls"><button id="smallerText" aria-label="Reducir tamaño del texto">A−</button><button id="largerText" aria-label="Aumentar tamaño del texto">A+</button></div></div>
+      <div id="textScroll" class="text-scroll"><article id="texto" class="book-text" tabindex="-1"><p class="loading">Cargando la transcripción…</p></article><details id="transcriptionNotes" class="transcription-notes"><summary>Notas de transcripción</summary><div id="sourceNotes" class="notes-body"></div></details><p id="sourceName" class="source-name"></p></div>
+    </section>
+    <div class="divider" id="divider" role="separator" aria-label="Ancho de los paneles" aria-orientation="vertical" aria-valuemin="25" aria-valuemax="75" aria-valuenow="50" tabindex="0"><span></span></div>
+    <section class="photo-panel" aria-labelledby="photoTitle">
+      <div class="panel-bar"><div><span class="panel-number">02</span><h2 id="photoTitle">Fotografía original</h2></div><div class="small-controls"><button id="zoomOut" aria-label="Alejar fotografía">−</button><output id="zoomLevel" aria-label="Ampliación">100%</output><button id="zoomIn" aria-label="Ampliar fotografía">+</button><button id="fitPhoto" title="Ajustar a la ventana">Ajustar</button><button id="rotatePhoto" aria-label="Girar fotografía 90 grados" title="Girar 90°">↻</button><button id="contrastPhoto" aria-pressed="false" title="Aumentar contraste para leer">Contraste</button></div></div>
+      <div id="photoScroll" class="photo-scroll"><div id="photoEmpty" class="empty-photo" hidden></div><div id="photoStage" class="photo-stage"><img id="photo" alt="" draggable="false" hidden></div></div>
+      <div class="photo-caption"><span id="photoName">Original conservado</span><span>Rueda: desplazar · Ctrl + rueda: ampliar</span></div>
+    </section>
+  </main>
+  <footer class="footer"><span id="saveStatus" role="status" aria-live="polite">Listo para comenzar</span><span id="footerHint">Flechas ← → para cambiar de página</span></footer>
+  <dialog id="pagesDialog" class="drawer" aria-labelledby="pagesHeading">
+    <div class="dialog-heading"><div><p class="eyebrow">RECORRIDO DE LECTURA</p><h2 id="pagesHeading">Páginas del libro</h2></div><button data-close="pagesDialog" class="close" aria-label="Cerrar páginas">×</button></div>
+    <label for="pageSearch">Buscar número o sección</label><input id="pageSearch" type="search" placeholder="Por ejemplo: 125 o Religión">
+    <label for="statusFilter">Mostrar</label><select id="statusFilter"><option value="todas">Todas las páginas</option><option value="pendiente">Pendientes</option><option value="revisada">Revisadas</option><option value="observaciones">Con observaciones</option><option value="blanco">Páginas en blanco</option></select>
+    <p class="drawer-hint">Se conserva la numeración del libro. Las láminas están reservadas para su composición final.</p>
+    <div id="pageList" class="page-list"></div>
+  </dialog>
+  <dialog id="reviewDialog" class="drawer" aria-labelledby="reviewHeading">
+    <div class="dialog-heading"><div><p class="eyebrow" id="reviewPage">PÁGINA 1</p><h2 id="reviewHeading">Tu revisión</h2></div><button data-close="reviewDialog" class="close" aria-label="Cerrar revisión">×</button></div>
+    <label for="reviewStatus">Estado de esta página</label><select id="reviewStatus"><option value="pendiente">Pendiente</option><option value="revisada">Revisada</option><option value="observaciones">Con observaciones</option></select>
+    <label for="reviewNotes">Observaciones o correcciones por comprobar</label><textarea id="reviewNotes" rows="12" maxlength="30000" placeholder="Anota la palabra, el párrafo o la diferencia que encontraste…"></textarea>
+    <p class="drawer-hint">Se guardan automáticamente por página. El texto transcrito y la fotografía permanecen intactos.</p>
+    <p id="dialogSaveStatus" class="save-detail" role="status" aria-live="polite"></p>
+    <div id="conflictTools" hidden><p class="drawer-hint">Otra ventana cambió esta página. Conserva tu borrador antes de recuperar la revisión guardada.</p><button id="downloadDraft" class="quiet full">Descargar esta observación ↓</button><button id="reloadSaved" class="quiet full">Recargar revisión guardada</button></div>
+    <button id="saveReview" class="primary full">Guardar ahora</button>
+    <a class="export-link" href="/api/exportar" download>Descargar copia de toda la revisión ↓</a>
+  </dialog>
+  <dialog id="helpDialog" class="help-dialog" aria-labelledby="helpHeading">
+    <div class="dialog-heading"><div><p class="eyebrow">GUÍA DE LECTURA</p><h2 id="helpHeading">Un cotejo, página a página</h2></div><button data-close="helpDialog" class="close" aria-label="Cerrar ayuda">×</button></div>
+    <ol><li>Lee la transcripción a la izquierda y compárala con la fotografía a la derecha.</li><li>Amplía la fotografía con +, − o Ctrl + rueda. Puedes arrastrarla cuando esté ampliada y girarla si hace falta.</li><li>Despliega las notas de transcripción para consultar dudas y grafías del original.</li><li>Marca la página como revisada o escribe una observación. Puedes volver a dejarla pendiente.</li><li>El visor recuerda tu última página. Descarga una copia de la revisión cuando quieras.</li></ol>
+    <p>Las páginas en blanco aparecen en su lugar. La 373 se presenta según la descripción del propietario y no tiene fotografía.</p>
+    <p class="drawer-hint">«Revisada» es el estado de tu nueva lectura en este visor. No cambia las verificaciones en papel documentadas en el proyecto.</p>
+    <p><kbd>←</kbd> <kbd>→</kbd> Cambiar de página · <kbd>Esc</kbd> Cerrar panel</p>
+  </dialog>
+</body>
+</html>

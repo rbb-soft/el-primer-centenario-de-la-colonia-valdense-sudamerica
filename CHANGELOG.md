@@ -5,6 +5,23 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.14.0] — 2026-10-07
+
+### Added
+- Visor local de cotejo en `visor/`: interfaz (`index.html`, `estilos.css`, `app.js`), servidor (`servidor.py`, solo biblioteca estándar de Python, que escucha únicamente en `127.0.0.1:8765`) y registro independiente (`visor/datos/revision.json`). Presenta el Markdown a la izquierda y la fotografía a la derecha, con navegación por página, zoom, giro, contraste, tamaño de texto y separador de paneles arrastrable.
+- Estados de revisión por página «Pendiente», «Revisada» y «Con observaciones», con anotaciones y guardado automático; también se conserva la última página leída.
+- Lanzadores `Abrir visor.desktop` (doble clic) y `Abrir visor.command` (terminal) en la raíz del repositorio. El lanzador `.desktop` lleva la ruta actual del proyecto y `Abrir visor.command` se resuelve por su propia ubicación, de modo que el visor se abre desde cualquier carpeta. Reutiliza la instancia en marcha en lugar de iniciar un segundo servidor.
+- Dependencias vendorizadas en `visor/vendor/` con sus licencias: Marked 17.0.5 (MIT) y DOMPurify 3.4.16 (Apache-2.0/MPL-2.0). No se requieren descargas durante el uso.
+- Copia descargable del registro completo de revisión, aviso de conflicto ante cambios simultáneos en otra ventana y recuperación de los borradores aún no guardados al reabrir el navegador.
+- `visor/README.md`: guía de uso con la apertura y el cierre, los controles de lectura y cotejo, el registro y sus copias, y los componentes del visor.
+- Excepciones del visor documentadas: las páginas 2, 4, 6, 372 y 374 se muestran como blancos y no admiten marcas de revisión; la 373 aparece con su fuente humana explícita y sin fotografía; las 19 láminas quedan fuera de la transcripción y se conservan para la composición final.
+
+### Changed
+- `PROPOSITO.md`: árbol de directorios sincronizado con las entradas `Abrir visor.command`, `Abrir visor.desktop` y `visor/`; nueva sección «Visor para la comprobación final», que delimita `visor/datos/revision.json` como registro independiente de esta nueva lectura y advierte que marcar una página como revisada en el visor no cambia ni acredita el cotejo en papel documentado en este archivo.
+- `README.md`: nueva sección «Visor de cotejo» con la apertura desde el lanzador, el contenido del registro de revisión y el enlace a la guía del visor; sección «Versión» actualizada a v0.14.0.
+
+---
+
 ## [v0.13.0] — 2026-10-07
 
 ### Added

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir visor del libro
+Comment=Comparar las transcripciones con las fotografías del libro
+Exec="/home/richard/Documentos/Libro/el-primer-centenario-de-la-colonia-valdende-sudamerica/Abrir visor.command"
+Path=/home/richard/Documentos/Libro/el-primer-centenario-de-la-colonia-valdende-sudamerica
+Icon=accessories-text-editor
+Terminal=true
+Categories=Education;

@@ -12,6 +12,9 @@ Libro/                                  ← raíz de este repositorio (nombre ab
 ├── HISTORIA DE LAS COLONIAS VALDENSES EN SU PRIMER CENTENARIO (1858 - 1958).odt
 ├── PROPOSITO.md                         ← este archivo
 ├── README.md                            ← presentación y estado
+├── Abrir visor.command                  ← lanzador portátil del visor local
+├── Abrir visor.desktop                  ← acceso para abrirlo con doble clic
+├── visor/                               ← interfaz, servidor y registro independiente
 ├── imagenes del libro/                  ← páginas de texto y láminas reservadas
 │   ├── imagen entre 4 y 5.jpeg           ← lámina: excluir de la transcripción
 │   ├── imagen entre 48 y 49 1.jpeg       ← lámina: excluir de la transcripción
@@ -603,6 +606,14 @@ En las páginas 251 a 300, además del cotejo general en papel, confirmar el sig
 En los preliminares y la tanda 301–378, además del cotejo general en papel, confirmar la diminuta leyenda del escudo de la portada (3), los diacríticos del patois (317), los nombres de la tabla de revisión y la grafía y tipografía exactas de «indice» en la 373. La posición centrada de este título y los cinco blancos quedan documentados según la indicación del propietario; no son lagunas de texto por completar.
 
 Ninguno de estos puntos se corrige: quedan como están impresos y anotados. Los que el libro impreso ya resolvió en el cotejo en papel siguen aquí como registro histórico de la duda, no como pendiente de lectura.
+
+## Visor para la comprobación final
+
+La carpeta `visor/` contiene un visor local de las transcripciones y fotografías, con el Markdown a la izquierda y la fuente a la derecha. Se abre con `Abrir visor.desktop` o `Abrir visor.command`; su [guía de uso](./visor/README.md) documenta los controles y las copias del registro.
+
+El visor conserva la numeración 1–378, presenta las páginas 2, 4, 6, 372 y 374 como blancos y muestra la 373 con fuente humana explícita y sin fotografía. Las láminas se excluyen conforme al registro de este documento. Los originales de texto e imagen se leen sin modificarse.
+
+La última página leída, los estados «Pendiente», «Revisada» y «Con observaciones» y las anotaciones se guardan en `visor/datos/revision.json`. Son un registro independiente de esta nueva lectura: **marcar una página como revisada en el visor no cambia ni acredita el cotejo en papel de las notas de transcripción**. Si una observación permite resolver una duda, su incorporación al Markdown se realiza después conforme a las convenciones del proyecto. Las cinco páginas en blanco no se cuentan en el progreso del cotejo.
 
 ## Iteraciones futuras
 

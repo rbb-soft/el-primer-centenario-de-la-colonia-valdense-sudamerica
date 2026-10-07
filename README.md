@@ -8,9 +8,15 @@ Transcripción diplomática de **«Historia de las Colonias Valdenses en su prim
 
 > Este repositorio no requiere instalación: es material documental. Para consultarlo, basta con clonar y abrir los `.md` en cualquier visor de markdown.
 
+## Visor de cotejo
+
+Para leer y comprobar el libro, abre **`Abrir visor.desktop`** con doble clic desde esta carpeta; si el explorador lo pide, permite su ejecución. También puedes usar `Abrir visor.command`. El visor muestra el Markdown a la izquierda y la fotografía a la derecha, con navegación, zoom, notas y un registro de revisión por página. Funciona localmente y sin conexión con Python y el navegador.
+
+El avance y las observaciones se guardan en `visor/datos/revision.json`, por separado de las transcripciones. Los cinco blancos y el título de la 373 se presentan con sus excepciones documentadas; las láminas siguen reservadas para la composición final. Consulta [la guía del visor](./visor/README.md) para abrirlo, revisar y descargar una copia del registro.
+
 ## Versión
 
-v0.13.0
+v0.14.0
 
 ## Estado
 
