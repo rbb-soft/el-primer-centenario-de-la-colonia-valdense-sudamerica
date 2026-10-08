@@ -5,6 +5,15 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).
 
 ---
 
+## [v0.14.2] — 2026-10-08
+
+### Changed
+- `visor/datos/revision.json`: el registro del cotejo en papel se amplía con 35 páginas marcadas como «Revisada» y sin observaciones (143 a 178, salvo la 156, que quedó sin marca); la última página abierta queda en la 179.
+- `PROPOSITO.md`: el cotejo contra el libro en papel pasa de 7-143 a **7-178**. Se actualizan el estado del proyecto y la sección «Verificación contra el libro impreso» con el alcance del registro del visor (7-178 «Revisada», 156 sin marcar, 179 última página abierta, ninguna observación) y las páginas que siguen pendientes (1, 3, 5, 179-371 y 375-378, más la grafía y tipografía del título de la 373). Se deja constancia de que el tramo 144-178 no requirió ninguna corrección de texto y se extiende a 26-178 la tarea pendiente de reformulación de notas.
+- `README.md`: sección «Visor de cotejo» con el estado actual del registro; párrafo de verificación con el cotejo en papel hasta la 178; versión actualizada a v0.14.2.
+
+---
+
 ## [v0.14.1] — 2026-10-07
 
 ### Changed
